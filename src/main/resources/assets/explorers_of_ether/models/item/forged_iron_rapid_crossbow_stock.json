@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow",
+  "textures": {
+    "layer0": "explorers_of_ether:item/forged_iron/rapid_crossbow/forged_iron_rapid_crossbow_stock"
+  }
+}

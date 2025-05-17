@@ -1,0 +1,16 @@
+{
+  "type": "explorers_of_ether:casting",
+  "ingredients": [
+    {
+      "item": "explorers_of_ether:molten_forged_iron_filled_crucible"
+    },
+    {
+      "item": "explorers_of_ether:glaive_blade_cast"
+    }
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_glaive_blade",
+    "count": 1
+  },
+  "amount_used": 2
+}

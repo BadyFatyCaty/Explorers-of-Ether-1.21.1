@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "explorers_of_ether:block/polished_packed_skyloam",
+    "side": "explorers_of_ether:block/polished_packed_skyloam",
+    "top": "explorers_of_ether:block/polished_packed_skyloam"
+  }
+}

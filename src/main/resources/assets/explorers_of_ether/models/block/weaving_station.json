@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "explorers_of_ether:block/weaving_station/weaving_station_bottom",
+    "front": "explorers_of_ether:block/weaving_station/weaving_station_front",
+    "side": "explorers_of_ether:block/weaving_station/weaving_station_side",
+    "top": "explorers_of_ether:block/weaving_station/weaving_station_top"
+  }
+}

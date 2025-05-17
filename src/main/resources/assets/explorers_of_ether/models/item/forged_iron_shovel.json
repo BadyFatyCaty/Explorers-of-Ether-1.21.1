@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "explorers_of_ether:item/forged_iron/shovel/forged_iron_shovel"
+  }
+}

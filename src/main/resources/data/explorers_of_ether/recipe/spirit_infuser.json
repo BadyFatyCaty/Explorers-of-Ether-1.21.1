@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "oso",
+    "ddd"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "s": {
+      "item": "explorers_of_ether:spirit_crystal"
+    },
+    "d": {
+      "tag": "explorers_of_ether:deepslate_blocks"
+    }
+  },
+  "result": {
+    "item": "explorers_of_ether:spirit_infuser",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "explorers_of_ether:block/polished_aeroslate_slab"
+    },
+    "type=double": {
+      "model": "explorers_of_ether:block/polished_aeroslate"
+    },
+    "type=top": {
+      "model": "explorers_of_ether:block/polished_aeroslate_slab_top"
+    }
+  }
+}

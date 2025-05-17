@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "explorers_of_ether:crucible"
+    }
+  ],
+  "result": {
+    "item": "explorers_of_ether:raw_iron_and_diamond_filled_crucible"
+  }
+}

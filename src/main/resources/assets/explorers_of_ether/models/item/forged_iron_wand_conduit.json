@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "explorers_of_ether:item/forged_iron/wand/forged_iron_wand_conduit"
+  }
+}

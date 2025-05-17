@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "explorers_of_ether:block/aeroslate_bricks"
+  }
+}

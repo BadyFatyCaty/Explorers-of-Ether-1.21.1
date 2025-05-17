@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "explorers_of_ether:tuff_bricks"
+  },
+  "result": "explorers_of_ether:tuff_brick_stairs"
+}

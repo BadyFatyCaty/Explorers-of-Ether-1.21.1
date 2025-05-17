@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "explorers_of_ether:block/polished_aeroslate"
+  }
+}

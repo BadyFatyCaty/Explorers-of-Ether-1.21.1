@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "explorers_of_ether:block/chiseled_spirit_crystal_bricks_top",
+    "side": "explorers_of_ether:block/chiseled_spirit_crystal_bricks"
+  }
+}

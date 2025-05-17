@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "n": {
+      "item": "explorers_of_ether:forged_iron_nugget"
+    },
+    "g": {
+      "item": "explorers_of_ether:forged_iron_ingot"
+    }
+  },
+  "pattern": [
+    "nn ",
+    "n g",
+    " gg"
+  ],
+  "result": {
+    "item": "explorers_of_ether:spirit_charm_empty",
+    "count": 1
+  }
+}

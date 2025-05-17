@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "explorers_of_ether:forged_iron_sheet"
+    },
+    "f": {
+      "item": "explorers_of_ether:forged_iron_ingot"
+    },
+    "s": {
+      "item": "explorers_of_ether:red_string"
+    }
+  },
+  "pattern": [
+    "f f",
+    "sFs",
+    "FfF"
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_breastplate"
+  },
+  "show_notification": true
+}

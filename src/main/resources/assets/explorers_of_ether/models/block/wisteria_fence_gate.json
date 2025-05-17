@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate",
+  "textures": {
+    "texture": "explorers_of_ether:block/wisteria_planks"
+  }
+}

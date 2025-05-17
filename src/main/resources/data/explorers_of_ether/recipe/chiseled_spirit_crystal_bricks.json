@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "explorers_of_ether:spirit_crystal_bricks"
+  },
+  "result": "explorers_of_ether:chiseled_spirit_crystal_bricks",
+  "count": 1
+}

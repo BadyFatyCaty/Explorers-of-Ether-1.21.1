@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "explorers_of_ether:forged_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_nugget",
+    "count": 4
+  }
+}

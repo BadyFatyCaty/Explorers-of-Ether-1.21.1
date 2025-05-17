@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "$": {
+      "item": "minecraft:bone_block"
+    },
+    "@": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "#$#",
+    " $ ",
+    "@@@"
+  ],
+  "result": {
+    "item": "explorers_of_ether:spirit_altar",
+    "count": 1
+  },
+  "show_notification": true
+}

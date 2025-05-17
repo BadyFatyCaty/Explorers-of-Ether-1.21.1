@@ -1,0 +1,10 @@
+{
+  "parent": "explorers_of_ether:item/base/metal_shield",
+  "textures": {
+    "0": "explorers_of_ether:item/forged_iron/shield/forged_iron_shield",
+    "particle": "explorers_of_ether:item/forged_iron/shield/forged_iron_shield"
+  },
+  "overrides": [
+    {"predicate": { "blocking": 1.0 }, "model": "explorers_of_ether:item/forged_iron_shield_blocking" }
+  ]
+}

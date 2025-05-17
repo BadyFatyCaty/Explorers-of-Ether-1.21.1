@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "snowy=false,night=false": {
+      "model": "explorers_of_ether:block/moonbloom_block"
+    },
+    "snowy=true,night=false": {
+      "model": "explorers_of_ether:block/moonbloom_block_snow"
+    },
+    "snowy=false,night=true": [
+      { "model": "explorers_of_ether:block/moonbloom_block_night_1", "weight": 1 },
+      { "model": "explorers_of_ether:block/moonbloom_block_night_2", "weight": 1 },
+      { "model": "explorers_of_ether:block/moonbloom_block_night_3", "weight": 1 },
+      { "model": "explorers_of_ether:block/moonbloom_block_night_4", "weight": 1 },
+      { "model": "explorers_of_ether:block/moonbloom_block_night_5", "weight": 1 }
+    ],
+    "snowy=true,night=true": {
+      "model": "explorers_of_ether:block/moonbloom_block_snow"
+    }
+  }
+}

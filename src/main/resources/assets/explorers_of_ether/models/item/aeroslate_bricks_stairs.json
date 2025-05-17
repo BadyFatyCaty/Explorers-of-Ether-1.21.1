@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "explorers_of_ether:block/aeroslate_bricks",
+    "side": "explorers_of_ether:block/aeroslate_bricks",
+    "top": "explorers_of_ether:block/aeroslate_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "explorers_of_ether:opal"
+    }
+  },
+  "result": {
+    "item": "explorers_of_ether:opal_block"
+  }
+}

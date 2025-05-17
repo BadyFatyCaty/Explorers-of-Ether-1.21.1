@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "explorers_of_ether:forged_iron_sheet"
+    },
+    "r": {
+      "item": "explorers_of_ether:red_cloth"
+    }
+  },
+  "pattern": [
+    "rrr",
+    "F F",
+    "F F"
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_greaves"
+  },
+  "show_notification": true
+}

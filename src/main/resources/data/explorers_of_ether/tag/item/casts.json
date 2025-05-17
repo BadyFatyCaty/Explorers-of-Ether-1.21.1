@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "explorers_of_ether:ingot_cast",
+    "explorers_of_ether:stick_cast",
+    "explorers_of_ether:string_cast",
+    "explorers_of_ether:axe_head_cast",
+    "explorers_of_ether:pickaxe_head_cast",
+    "explorers_of_ether:hoe_head_cast",
+    "explorers_of_ether:shovel_head_cast",
+    "explorers_of_ether:bow_stave_cast",
+    "explorers_of_ether:long_bow_stave_cast",
+    "explorers_of_ether:claymore_blade_cast",
+    "explorers_of_ether:claymore_guard_cast",
+    "explorers_of_ether:sword_blade_cast",
+    "explorers_of_ether:sword_guard_cast",
+    "explorers_of_ether:rapid_crossbow_stock_cast",
+    "explorers_of_ether:rapid_crossbow_prod_cast",
+    "explorers_of_ether:crossbow_stock_cast",
+    "explorers_of_ether:crossbow_prod_cast",
+    "explorers_of_ether:dagger_blade_cast",
+    "explorers_of_ether:double_axe_head_cast",
+    "explorers_of_ether:spear_head_cast",
+    "explorers_of_ether:glaive_blade_cast",
+    "explorers_of_ether:mace_head_cast",
+    "explorers_of_ether:scythe_head_cast",
+    "explorers_of_ether:shield_cast",
+    "explorers_of_ether:staff_conduit_cast",
+    "explorers_of_ether:wand_conduit_cast",
+    "explorers_of_ether:ring_cast"
+  ]
+}

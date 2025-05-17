@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Wind",
+            "color": "white"
+        },
+        "description": {
+            "text": "Uses swift currents and slicing gusts to strike swiftly and evade attacks.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "explorers_of_ether:wind_element"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "explorers_of_ether:root"
+}

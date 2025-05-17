@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "explorers_of_ether:block/wisteria_planks"
+  }
+}

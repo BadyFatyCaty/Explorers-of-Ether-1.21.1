@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "explorers_of_ether:block/casting_station",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "explorers_of_ether:block/casting_station"
+    },
+    "facing=south": {
+      "model": "explorers_of_ether:block/casting_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "explorers_of_ether:block/casting_station",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ppp",
+    "sss",
+    "ggg"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "s": {
+      "tag": "minecraft:planks"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "explorers_of_ether:casting_station"
+  }
+}

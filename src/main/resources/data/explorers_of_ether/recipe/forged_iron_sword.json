@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "explorers_of_ether:forged_iron_sword_handle"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "template": {
+    "item": "explorers_of_ether:forged_iron_sword_blade"
+  },
+  "result": {
+    "item": "explorers_of_ether:forged_iron_sword"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "explorers_of_ether:item/spirit_crystal_infused",
+    "layer1": "explorers_of_ether:item/spirit_crystal_infused_tint1",
+    "layer2": "explorers_of_ether:item/spirit_crystal_infused_tint2"
+  }
+}

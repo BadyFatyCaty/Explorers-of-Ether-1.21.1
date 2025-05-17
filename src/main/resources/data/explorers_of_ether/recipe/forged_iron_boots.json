@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "explorers_of_ether:forged_iron_fabric"
+    },
+    "s": {
+      "item": "explorers_of_ether:red_string"
+    }
+  },
+  "pattern": [
+    "s s",
+    "F F"
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_boots"
+  },
+  "show_notification": true
+}

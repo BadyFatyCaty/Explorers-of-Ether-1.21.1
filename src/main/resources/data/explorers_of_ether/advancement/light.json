@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Light",
+            "color": "white"
+        },
+        "description": {
+            "text": "Radiates purity and focus, healing allies or banishing darkness.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "explorers_of_ether:light_element"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "explorers_of_ether:root"
+}

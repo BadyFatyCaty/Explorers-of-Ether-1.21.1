@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "explorers_of_ether:block/wisteria_planks_carved_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "explorers_of_ether:block/wisteria_planks_carved"
+    },
+    "axis=z": {
+      "model": "explorers_of_ether:block/wisteria_planks_carved_horizontal",
+      "x": 90
+    }
+  }
+}

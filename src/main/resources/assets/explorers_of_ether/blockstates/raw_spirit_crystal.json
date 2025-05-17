@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "explorers_of_ether:block/raw_spirit_crystal",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "explorers_of_ether:block/raw_spirit_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "explorers_of_ether:block/raw_spirit_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "explorers_of_ether:block/raw_spirit_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "explorers_of_ether:block/raw_spirit_crystal"
+    },
+    "facing=west": {
+      "model": "explorers_of_ether:block/raw_spirit_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

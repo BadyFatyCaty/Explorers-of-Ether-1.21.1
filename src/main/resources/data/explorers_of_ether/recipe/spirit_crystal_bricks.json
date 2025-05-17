@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sss",
+    "sss"
+  ],
+  "key": {
+    "s": {
+      "item": "explorers_of_ether:spirit_crystal"
+    }
+  },
+  "result": {
+    "item": "explorers_of_ether:spirit_crystal_bricks"
+  }
+}

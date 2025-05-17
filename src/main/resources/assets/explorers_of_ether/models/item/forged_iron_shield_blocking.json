@@ -1,0 +1,7 @@
+{
+  "parent": "explorers_of_ether:item/base/metal_shield_blocking",
+  "textures": {
+    "0": "explorers_of_ether:item/forged_iron/shield/forged_iron_shield",
+    "particle": "explorers_of_ether:item/forged_iron/shield/forged_iron_shield"
+  }
+}

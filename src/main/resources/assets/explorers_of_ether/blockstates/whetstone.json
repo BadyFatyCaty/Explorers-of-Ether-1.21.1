@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "explorers_of_ether:block/whetstone",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "explorers_of_ether:block/whetstone"
+    },
+    "facing=south": {
+      "model": "explorers_of_ether:block/whetstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "explorers_of_ether:block/whetstone",
+      "y": 270
+    }
+  }
+}

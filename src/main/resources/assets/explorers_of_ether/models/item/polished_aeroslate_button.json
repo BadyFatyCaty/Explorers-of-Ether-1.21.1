@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "explorers_of_ether:block/polished_aeroslate"
+  }
+}

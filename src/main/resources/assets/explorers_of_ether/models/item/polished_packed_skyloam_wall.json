@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "explorers_of_ether:block/polished_packed_skyloam"
+  }
+}

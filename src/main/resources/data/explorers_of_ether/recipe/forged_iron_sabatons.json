@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "explorers_of_ether:forged_iron_sheet"
+    },
+    "f": {
+      "item": "explorers_of_ether:forged_iron_ingot"
+    }
+  },
+  "pattern": [
+    "f f",
+    "F F"
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_sabatons"
+  },
+  "show_notification": true
+}

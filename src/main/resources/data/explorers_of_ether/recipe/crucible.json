@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "x x",
+    " x "
+  ],
+  "key": {
+    "x": [
+      {
+        "item": "minecraft:cobbled_deepslate"
+      },
+      {
+        "item": "minecraft:deepslate"
+      }
+    ]
+  },
+  "result": {
+    "item": "explorers_of_ether:crucible"
+  }
+}

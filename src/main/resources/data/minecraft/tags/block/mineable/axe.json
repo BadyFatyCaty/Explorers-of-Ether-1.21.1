@@ -1,0 +1,19 @@
+{
+  "values": [
+    "explorers_of_ether:wisteria_log",
+    "explorers_of_ether:stripped_wisteria_log",
+    "explorers_of_ether:wisteria_beam",
+    "explorers_of_ether:wisteria_wood",
+    "explorers_of_ether:stripped_wisteria_wood",
+    "explorers_of_ether:wisteria_planks",
+    "explorers_of_ether:wisteria_planks_carved",
+    "explorers_of_ether:wisteria_stairs",
+    "explorers_of_ether:wisteria_slab",
+    "explorers_of_ether:wisteria_fence",
+    "explorers_of_ether:wisteria_fence_gate",
+    "explorers_of_ether:wisteria_door",
+    "explorers_of_ether:wisteria_trapdoor",
+    "explorers_of_ether:wisteria_pressure_plate",
+    "explorers_of_ether:wisteria_button"
+  ]
+}

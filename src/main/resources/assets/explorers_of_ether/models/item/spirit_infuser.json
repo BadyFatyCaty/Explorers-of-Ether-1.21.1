@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "particle": "explorers_of_ether:block/spirit_infuser_side_off",
+    "up": "explorers_of_ether:block/spirit_infuser_top_off",
+    "north": "explorers_of_ether:block/spirit_infuser_side_off",
+    "east": "explorers_of_ether:block/spirit_infuser_side_off",
+    "south": "explorers_of_ether:block/spirit_infuser_side_off",
+    "west": "explorers_of_ether:block/spirit_infuser_side_off",
+    "down": "explorers_of_ether:block/spirit_infuser_bottom"
+  }
+}

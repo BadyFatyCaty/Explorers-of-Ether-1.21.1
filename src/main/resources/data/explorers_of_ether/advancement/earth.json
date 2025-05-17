@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Earth",
+            "color": "white"
+        },
+        "description": {
+            "text": "Channels the strength of stone and soil for crushing force and resilience.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "explorers_of_ether:earth_element"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "parent": "explorers_of_ether:root"
+}

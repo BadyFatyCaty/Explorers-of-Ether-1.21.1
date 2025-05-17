@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Water Barrier",
+            "color": "white"
+        },
+        "description": {
+            "text": "Description",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "explorers_of_ether:water"
+}

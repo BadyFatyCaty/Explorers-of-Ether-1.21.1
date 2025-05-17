@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "explorers_of_ether:block/polished_packed_skyloam_slab"
+    },
+    "type=double": {
+      "model": "explorers_of_ether:block/polished_packed_skyloam"
+    },
+    "type=top": {
+      "model": "explorers_of_ether:block/polished_packed_skyloam_slab_top"
+    }
+  }
+}

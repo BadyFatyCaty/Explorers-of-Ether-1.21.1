@@ -1,0 +1,12 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "explorers_of_ether:include/space"
+        },
+        {
+            "type": "reference",
+            "id": "explorers_of_ether:include/unifont"
+        }
+    ]
+}

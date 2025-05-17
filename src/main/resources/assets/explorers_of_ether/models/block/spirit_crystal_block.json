@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "explorers_of_ether:block/spirit_crystal_block_top",
+    "side": "explorers_of_ether:block/spirit_crystal_block"
+  }
+}

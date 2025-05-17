@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "explorers_of_ether:raw_iron_and_diamond_filled_crucible"
+  },
+  "result": "explorers_of_ether:molten_forged_iron_filled_crucible"
+}

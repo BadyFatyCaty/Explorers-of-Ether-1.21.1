@@ -1,0 +1,6 @@
+{
+  "parent": "explorers_of_ether:item/base/claymore",
+  "textures": {
+    "layer0": "explorers_of_ether:item/forged_iron/claymore/forged_iron_claymore"
+  }
+}

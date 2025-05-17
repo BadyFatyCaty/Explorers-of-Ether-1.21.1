@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "explorers_of_ether:soul_orb"
+  },
+  "result": "explorers_of_ether:soul_of_fangs",
+  "count": 1
+}

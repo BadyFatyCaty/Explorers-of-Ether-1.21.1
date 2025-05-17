@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "explorers_of_ether:opal_block"
+    }
+  ],
+  "result": {
+    "item": "explorers_of_ether:opal",
+    "count": 9
+  }
+}

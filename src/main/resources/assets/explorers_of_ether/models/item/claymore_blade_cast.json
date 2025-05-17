@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "explorers_of_ether:item/cast/claymore_blade_cast"
+  }
+}

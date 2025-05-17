@@ -1,0 +1,16 @@
+{
+  "type": "explorers_of_ether:casting",
+  "ingredients": [
+    {
+      "item": "explorers_of_ether:molten_forged_iron_filled_crucible"
+    },
+    {
+      "item": "explorers_of_ether:wand_conduit_cast"
+    }
+  ],
+  "result": {
+    "item": "explorers_of_ether:forged_iron_wand_conduit",
+    "count": 1
+  },
+  "amount_used": 1
+}

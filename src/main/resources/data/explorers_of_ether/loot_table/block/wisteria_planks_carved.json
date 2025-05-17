@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "explorers_of_ether:wisteria_planks_carved"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "explorers_of_ether:blocks/wisteria_planks_carved"
+}

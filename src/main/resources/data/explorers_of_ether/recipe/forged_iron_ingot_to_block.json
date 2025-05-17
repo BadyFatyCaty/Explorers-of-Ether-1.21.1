@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "explorers_of_ether:forged_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "explorers_of_ether:forged_iron_block"
+  }
+}

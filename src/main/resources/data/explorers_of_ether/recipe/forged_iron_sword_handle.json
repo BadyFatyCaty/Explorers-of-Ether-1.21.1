@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "explorers_of_ether:red_wrapped_stick"
+  },
+  "addition": {
+    "item": "explorers_of_ether:forged_iron_nugget"
+  },
+  "template": {
+    "item": "explorers_of_ether:forged_iron_sword_guard"
+  },
+  "result": {
+    "item": "explorers_of_ether:forged_iron_sword_handle"
+  }
+}

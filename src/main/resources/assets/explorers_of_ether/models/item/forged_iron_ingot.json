@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "explorers_of_ether:item/forged_iron/forged_iron_ingot"
+  }
+}

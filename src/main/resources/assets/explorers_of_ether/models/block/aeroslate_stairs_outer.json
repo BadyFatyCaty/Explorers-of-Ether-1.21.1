@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "explorers_of_ether:block/aeroslate",
+    "side": "explorers_of_ether:block/aeroslate",
+    "top": "explorers_of_ether:block/aeroslate"
+  }
+}

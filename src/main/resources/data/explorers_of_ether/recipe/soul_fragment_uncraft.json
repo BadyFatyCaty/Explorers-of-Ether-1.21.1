@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "explorers_of_ether:soul_fragment"
+    }
+  ],
+  "result": {
+    "item": "explorers_of_ether:soul_dust",
+    "count": 9
+  }
+}
