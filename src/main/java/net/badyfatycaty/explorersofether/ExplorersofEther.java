@@ -1,5 +1,7 @@
 package net.badyfatycaty.explorersofether;
 
+import net.badyfatycaty.explorersofether.attributes.AttributesMain;
+import net.badyfatycaty.explorersofether.attributes.spirit.SpiritHealth;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -18,16 +20,16 @@ public class ExplorersofEther
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "explorers_of_ether";
+    public static final String MODID = "explorers_of_ether";
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public ExplorersofEther(IEventBus modEventBus, ModContainer modContainer)
+    public ExplorersofEther(IEventBus modEventBus)
     {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-
-
+        AttributesMain.registerAllAttributes(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
