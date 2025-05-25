@@ -1,0 +1,58 @@
+{
+	"definitions": [
+		{
+		"index": 0,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "#e71c23",
+		"endColor": "#bb0012",
+		"bgStartColor": "#280b26",
+		"bgEndColor": "#280b26",
+		"selectors": ["^\uE005"]
+		},
+		{
+		"index": 1,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "#f1e43a",
+		"endColor": "#dfab30",
+		"bgStartColor": "#220c27",
+		"bgEndColor": "#220c27",
+		"selectors": ["^\uE004"]
+		},
+		{
+		"index": 2,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "#b56bff",
+		"endColor": "#8542ef",
+		"bgStartColor": "#1a112e",
+		"bgEndColor": "#1a112e",
+		"selectors": ["^\uE003"]
+		},
+		{
+		"index": 3,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "#4facfb",
+		"endColor": "#1e80f3",
+		"bgStartColor": "#0e092f",
+		"bgEndColor": "#0e092f",
+		"selectors": ["^\uE002"]
+		},
+		{
+		"index": 4,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "#9ae363",
+		"endColor": "#32b046",
+		"bgStartColor": "#0c1327",
+		"bgEndColor": "#0c1327",
+		"selectors": ["^\uE001"]
+		},
+		{
+		"index": 5,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "#ffffff",
+		"endColor": "#afd3de",
+		"bgStartColor": "#19102e",
+		"bgEndColor": "#19102e",
+		"selectors": ["^\uE000", "!common", "!uncommon", "!rare", "!epic"]
+		}
+	]
+}

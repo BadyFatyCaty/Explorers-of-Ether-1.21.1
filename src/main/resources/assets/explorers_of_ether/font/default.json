@@ -2,18 +2,11 @@
     "providers": [
         {
             "type": "reference",
-            "id": "explorers_of_ether:include/space"
+            "id": "explorers_of_ether:rarities"
         },
         {
             "type": "reference",
-            "id": "explorers_of_ether:include/default",
-            "filter": {
-                "uniform": false
-            }
-        },
-        {
-            "type": "reference",
-            "id": "explorers_of_ether:include/unifont"
+            "id": "explorers_of_ether:elements"
         }
     ]
 }

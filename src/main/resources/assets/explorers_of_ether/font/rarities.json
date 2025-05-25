@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "explorers_of_ether:font/rarities.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\uE000",
+        "\uE001",
+        "\uE002",
+        "\uE003",
+        "\uE004",
+        "\uE005",
+        "\uE006",
+        "\uE007"
+      ]
+    }
+  ]
+}
