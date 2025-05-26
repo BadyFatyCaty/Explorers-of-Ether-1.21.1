@@ -3,7 +3,6 @@ package net.mrbubbleman.explorersofether.common.capability;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
-import net.mrbubbleman.explorersofether.setup.registry.AttachmentsRegistry;
 
 import java.util.ArrayList;
 
@@ -12,7 +11,7 @@ public class EoEPlayerDataCap implements IPlayerCap {
     LivingEntity entity;
 
     public EoEPlayerDataCap(LivingEntity livingEntity) {
-        this.playerData = (EoEPlayerData)livingEntity.getData(AttachmentsRegistry.PLAYER_DATA);
+        // this.playerData = (EoEPlayerData)livingEntity.getData(AttachmentsRegistry.PLAYER_DATA);
         this.entity = livingEntity;
     }
 
