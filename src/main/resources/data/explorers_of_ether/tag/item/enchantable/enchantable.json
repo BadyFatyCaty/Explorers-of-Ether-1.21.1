@@ -1,0 +1,16 @@
+{
+  "values": [
+    "#minecraft:foot_armor",
+    "#minecraft:leg_armor",
+    "#minecraft:chest_armor",
+    "#minecraft:head_armor",
+    "minecraft:elytra",
+    "#minecraft:skulls",
+    "minecraft:carved_pumpkin",
+    "#minecraft:enchantable/weapon",
+    "#minecraft:enchantable/bow",
+    "#minecraft:enchantable/crossbow",
+    "#minecraft:enchantable/fishing",
+    "#minecraft:enchantable/trident"
+  ]
+}
