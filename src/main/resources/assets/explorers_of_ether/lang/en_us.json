@@ -76,6 +76,8 @@
   "attribute.explorers_of_ether.draw_speed": "Draw Speed",
   "attribute.explorers_of_ether.projectile_resistance": "Projectile Resistance",
 
-  "attribute.explorers_of_ether.health_regen": "Health Regeneration Rate"
+  "attribute.explorers_of_ether.health_regen": "Health Regeneration Rate",
 
+  "tooltip.explorersofether.enchantments": "Enchantments",
+  "tooltip.explorersofether.empty_slot": "Empty"
 }

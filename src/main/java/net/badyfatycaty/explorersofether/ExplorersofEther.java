@@ -3,6 +3,7 @@ package net.badyfatycaty.explorersofether;
 import com.mojang.logging.LogUtils;
 import net.badyfatycaty.explorersofether.attributes.AttributesMain;
 import net.badyfatycaty.explorersofether.attributes.spirit.SpiritHealth;
+import net.badyfatycaty.explorersofether.components.ModDataComponents;
 import net.badyfatycaty.explorersofether.items.ModItems;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -42,6 +43,7 @@ public class ExplorersofEther
 
         AttributesMain.registerAllAttributes(modEventBus);
         ModItems.register(modEventBus);
+        ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
