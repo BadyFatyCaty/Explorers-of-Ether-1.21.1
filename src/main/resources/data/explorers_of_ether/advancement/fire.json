@@ -1,25 +1,24 @@
 {
-    "display": {
-        "title": {
-            "text": "Fire",
-            "color": "white"
-        },
-        "description": {
-            "text": "Unleashes searing flames that burn through armor and ignite surroundings.",
-            "color": "light_purple"
-        },
-        "icon": {
-            "item": "explorers_of_ether:fire_element"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false
-    },
+    "parent": "explorers_of_ether:magic",
     "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
+        "obtain_fire": {
+            "trigger": "minecraft:impossible"
         }
     },
-    "parent": "explorers_of_ether:root"
+    "display": {
+        "description": {
+            "translate": "advancement.magic.fire.desc"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:blaze_powder"
+        },
+        "title": {
+            "translate": "advancement.magic.fire.title"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
 }

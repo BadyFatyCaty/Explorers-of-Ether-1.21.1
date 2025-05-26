@@ -1,25 +1,24 @@
 {
-    "display": {
-        "title": {
-            "text": "Water",
-            "color": "white"
-        },
-        "description": {
-            "text": "Manipulates fluidity and cold to control the battlefield and hinder movement.",
-            "color": "light_purple"
-        },
-        "icon": {
-            "item": "explorers_of_ether:water_element"
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false
+  "parent": "explorers_of_ether:magic",
+  "criteria": {
+    "obtain_water": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.magic.water.desc"
     },
-    "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
-        }
+    "icon": {
+      "count": 1,
+      "id": "minecraft:water_bucket"
     },
-    "parent": "explorers_of_ether:root"
+    "title": {
+      "translate": "advancement.magic.water.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
 }

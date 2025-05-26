@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.magic.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancement.magic.title"
+    },
+    "background": "minecraft:textures/block/netherrack.png"
+  }
+}

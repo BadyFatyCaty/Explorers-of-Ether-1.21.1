@@ -79,5 +79,19 @@
   "attribute.explorers_of_ether.health_regen": "Health Regeneration Rate",
 
   "tooltip.explorersofether.enchantments": "Enchantments",
-  "tooltip.explorersofether.empty_slot": "Empty"
+  "tooltip.explorersofether.empty_slot": "Empty",
+
+  "advancement.magic.title": "Magic",
+  "advancement.magic.desc": "Unlock Access to the Ether.",
+  "advancement.magic.fire.title": "Fire",
+  "advancement.magic.fire.desc": "Harness the power of flame.",
+  "advancement.magic.water.title": "Water",
+  "advancement.magic.water.desc": "Harness the current.",
+
+  "key.category.explorers_of_ether.general": "Explorers Of Ether",
+  "key.explorers_of_ether.combo_mode": "Combo Mode",
+  "key.explorers_of_ether.combo_right": "Combo Right",
+  "key.explorers_of_ether.combo_left": "Combo Left",
+  "key.explorers_of_ether.combo_up": "Combo Up",
+  "key.explorers_of_ether.combo_down": "Combo Down"
 }
