@@ -4,7 +4,6 @@ import net.badyfatycaty.explorersofether.Config;
 import net.badyfatycaty.explorersofether.ExplorersofEther;
 import net.badyfatycaty.explorersofether.components.EnchantmentLimitComponent;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
-import net.badyfatycaty.explorersofether.components.ModRarityComponent;
 import net.badyfatycaty.explorersofether.rarity.ModRarity;
 import net.minecraft.network.chat.Style;
 import net.minecraft.resources.ResourceLocation;
@@ -22,12 +21,7 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
-
-import java.util.List;
-
-import net.minecraft.world.item.Item;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.ItemTags;
 
 @EventBusSubscriber(modid = ExplorersofEther.MODID, bus = EventBusSubscriber.Bus.GAME)
 public class TooltipHandler {
@@ -37,13 +31,35 @@ public class TooltipHandler {
         if (stack.isEmpty()) return;
 
         // ─── Rarity line ───────────────────────────────────────────────────────
-        ModRarity rarity = stack.getOrDefault(ModRarityComponent.RARITY, ModRarity.COMMON);
-        List<Component> tooltip = event.getToolTip();
-        if (!tooltip.isEmpty()) {
-            // Style the first line with rarity color
-            Component first = tooltip.get(0);
-            tooltip.set(0, first.copy().withStyle(rarity.getStyleModifier()));
+        ModRarity rarity;  // default fallback
+        if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/common")))) {
+            rarity = ModRarity.COMMON;
+        } else if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/uncommon")))) {
+            rarity = ModRarity.UNCOMMON;
+        } else if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/rare")))) {
+            rarity = ModRarity.RARE;
+        } else if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/epic")))) {
+            rarity = ModRarity.EPIC;
+        } else if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/legendary")))) {
+            rarity = ModRarity.LEGENDARY;
+        } else if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/mythic")))) {
+            rarity = ModRarity.MYTHIC;
+        } else if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarity/unique")))) {
+            rarity = ModRarity.UNIQUE;
+        } else {
+            rarity = ModRarity.COMMON;
         }
+        // Set the CUSTOM_NAME component to use the rarity color and italics for renamed items
+        if (stack.get(net.minecraft.core.component.DataComponents.CUSTOM_NAME) != null) {
+            Component originalName = stack.get(net.minecraft.core.component.DataComponents.CUSTOM_NAME);
+            Component recolored = originalName.copy().withStyle(style -> style.withColor(rarity.getFormatting()).withItalic(false));
+            stack.set(net.minecraft.core.component.DataComponents.CUSTOM_NAME, recolored);
+        } else {
+            Component defaultName = stack.getHoverName().copy().withStyle(style -> style.withColor(rarity.getFormatting()));
+            stack.set(net.minecraft.core.component.DataComponents.CUSTOM_NAME, defaultName);
+        }
+        List<Component> tooltip = event.getToolTip();
+        // The tooltip.set(0, ...) logic is now handled by directly modifying the CUSTOM_NAME component.
         // Add the rarity icon using private-use font
         char icon = (char)('\uE000' + rarity.getId());
         ResourceLocation fontLocation = ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "rarities");
