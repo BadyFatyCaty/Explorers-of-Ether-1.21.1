@@ -2,9 +2,13 @@ package net.badyfatycaty.explorersofether;
 
 import com.mojang.logging.LogUtils;
 import net.badyfatycaty.explorersofether.attributes.AttributesMain;
-import net.badyfatycaty.explorersofether.attributes.spirit.SpiritHealth;
+import net.badyfatycaty.explorersofether.block.ModBlocks;
+import net.badyfatycaty.explorersofether.block.entity.ModBlockEntities;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
+import net.badyfatycaty.explorersofether.items.ModCreativeModeTabs;
 import net.badyfatycaty.explorersofether.items.ModItems;
+import net.badyfatycaty.explorersofether.screen.ModMenuTypes;
+import net.badyfatycaty.explorersofether.screen.custom.ForgeScreen;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -14,6 +18,7 @@ import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -42,8 +47,16 @@ public class ExplorersofEther
         NeoForge.EVENT_BUS.register(this);
 
         AttributesMain.registerAllAttributes(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModDataComponents.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
+        ModMenuTypes.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -76,6 +89,11 @@ public class ExplorersofEther
         public static void onClientSetup(FMLClientSetupEvent event)
         {
 
+        }
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+            event.register(ModMenuTypes.FORGE_MENU.get(), ForgeScreen::new);
         }
     }
 }

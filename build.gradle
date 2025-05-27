@@ -181,6 +181,8 @@ dependencies {
     implementation "curse.maven:ftb-library-forge-404465:6466106"
 
     implementation "curse.maven:architectury-api-419699:5786327"
+
+    implementation "curse.maven:item-borders-513769:5591010"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

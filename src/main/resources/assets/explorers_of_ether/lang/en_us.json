@@ -93,5 +93,7 @@
   "key.explorers_of_ether.combo_right": "Combo Right",
   "key.explorers_of_ether.combo_left": "Combo Left",
   "key.explorers_of_ether.combo_up": "Combo Up",
-  "key.explorers_of_ether.combo_down": "Combo Down"
+  "key.explorers_of_ether.combo_down": "Combo Down",
+
+  "block.explorers_of_ether.forge": "Forge"
 }
