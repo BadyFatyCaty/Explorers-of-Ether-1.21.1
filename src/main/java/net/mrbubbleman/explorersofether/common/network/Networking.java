@@ -1,5 +1,6 @@
 package net.mrbubbleman.explorersofether.common.network;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.server.MinecraftServer;
@@ -9,7 +10,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.Level;
 import net.mrbubbleman.explorersofether.common.network.packets.AbstractPacket;
-import net.mrbubbleman.explorersofether.common.network.packets.PacketComboKeyPressed;
+import net.mrbubbleman.explorersofether.common.network.packets.ComboKeyPressedPacket;
+import net.mrbubbleman.explorersofether.common.network.packets.SyncPlayerCapPacket;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.LogicalSide;
 import net.neoforged.neoforge.network.PacketDistributor;
@@ -23,14 +25,15 @@ public class Networking {
     public static void register(RegisterPayloadHandlersEvent event) {
         PayloadRegistrar reg = event.registrar("1");
         // Register Packets
-        reg.playToServer(PacketComboKeyPressed.TYPE, PacketComboKeyPressed.CODEC, Networking::handle);
+        reg.playToServer(ComboKeyPressedPacket.TYPE, ComboKeyPressedPacket.CODEC, Networking::handle);
+        reg.playToClient(SyncPlayerCapPacket.TYPE, SyncPlayerCapPacket.CODEC, Networking::handle);
     }
 
     public static <T extends AbstractPacket> void handle(T message, IPayloadContext ctx) {
         if (ctx.flow().getReceptionSide() == LogicalSide.SERVER) {
             handleServer(message, ctx);
         } else {
-            // Networking.ClientMessageHandler.handleClient(message, ctx);
+            Networking.ClientMessageHandler.handleClient(message, ctx);
         }
     }
 
@@ -56,5 +59,12 @@ public class Networking {
 
     public static void sendToServer(CustomPacketPayload msg) {
         PacketDistributor.sendToServer(msg, new CustomPacketPayload[0]);
+    }
+
+    private static class ClientMessageHandler {
+        public static <T extends AbstractPacket> void handleClient(T message, IPayloadContext ctx) {
+            Minecraft minecraft = Minecraft.getInstance();
+            message.onClientReceived(minecraft, minecraft.player);
+        }
     }
 }
