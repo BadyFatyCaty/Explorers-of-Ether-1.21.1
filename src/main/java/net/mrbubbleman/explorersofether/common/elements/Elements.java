@@ -109,7 +109,6 @@ public class Elements {
         }
 
         /**
-         * TODO
          * @param numberOfElements
          * @param RANDOM
          * @return
