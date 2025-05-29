@@ -5,6 +5,9 @@ import net.badyfatycaty.explorersofether.ExplorersofEther;
 import net.badyfatycaty.explorersofether.components.EnchantmentLimitComponent;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
 import net.badyfatycaty.explorersofether.rarity.ModRarity;
+import net.bettercombat.BetterCombatMod;
+import net.bettercombat.api.WeaponAttributes;
+import net.bettercombat.api.component.BetterCombatDataComponents;
 import net.minecraft.network.chat.Style;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.ChatFormatting;
@@ -18,12 +21,13 @@ import java.util.LinkedHashMap;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.contents.TranslatableContents;
 import net.minecraft.world.item.ItemStack;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 import net.minecraft.tags.ItemTags;
 
-@EventBusSubscriber(modid = ExplorersofEther.MODID, bus = EventBusSubscriber.Bus.GAME)
+@EventBusSubscriber(modid = ExplorersofEther.MODID, bus = EventBusSubscriber.Bus.GAME, value = {Dist.CLIENT})
 public class TooltipHandler {
     @SubscribeEvent
     public static void onItemTooltip(ItemTooltipEvent event) {
@@ -70,7 +74,7 @@ public class TooltipHandler {
 
 
         // ─── Enchantments ───────────────────────────────────────────────────────
-        if (stack.isDamageableItem()) {
+        if (stack.is(ItemTags.create(ResourceLocation.fromNamespaceAndPath(ExplorersofEther.MODID, "enchantable/enchantable")))) {
         //  ──── remove vanilla enchant lines ───────────────────────────────────────
         tooltip.removeIf(line -> {
             if (line.getContents() instanceof TranslatableContents tc) {
@@ -93,7 +97,7 @@ public class TooltipHandler {
             EnchantmentHelper.runIterationOnItem(stack, enchantMap::put);
             // Enchantments header as a translatable tag
             tooltip.add(Component.literal("☄ ")
-                .append(Component.translatable("tooltip.explorersofether.enchantments"))
+                .append(Component.translatable("tooltip.explorers_of_ether.enchantments"))
                     .append(Component.literal(" (" + enchantMap.size() + "/" + maxEnchants + "):      ")
                         .withStyle(ChatFormatting.GRAY))
                 .withStyle(ChatFormatting.WHITE));
@@ -111,7 +115,7 @@ public class TooltipHandler {
                 } else {
                     // Empty slot placeholder
                     tooltip.add(Component.literal("  ◇ ")
-                                    .append(Component.translatable("tooltip.explorersofether.empty_slot"))
+                                    .append(Component.translatable("tooltip.explorers_of_ether.empty_slot"))
                             .withStyle(ChatFormatting.GRAY));
                 }
             }

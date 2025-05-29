@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+    "minecraft:shears",
+    "#explorers_of_ether:shovels",
+    "#explorers_of_ether:pickaxes",
+    "#explorers_of_ether:axes",
+    "#explorers_of_ether:hoes"
+  ]
+}

@@ -7,6 +7,8 @@ import net.badyfatycaty.explorersofether.block.entity.ModBlockEntities;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
 import net.badyfatycaty.explorersofether.items.ModCreativeModeTabs;
 import net.badyfatycaty.explorersofether.items.ModItems;
+import net.badyfatycaty.explorersofether.items.categories.CrucibleItems;
+import net.badyfatycaty.explorersofether.items.categories.ForgedIronItems;
 import net.badyfatycaty.explorersofether.screen.ModMenuTypes;
 import net.badyfatycaty.explorersofether.screen.custom.ForgeScreen;
 import net.neoforged.api.distmarker.Dist;
@@ -32,7 +34,7 @@ public class ExplorersofEther
     public static final String MOD_ID = "explorers_of_ether";
     public static final String MODID = "explorers_of_ether";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -52,6 +54,9 @@ public class ExplorersofEther
 
         ModItems.register(modEventBus);
         ModDataComponents.register(modEventBus);
+
+        CrucibleItems.register(modEventBus);
+        ForgedIronItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);

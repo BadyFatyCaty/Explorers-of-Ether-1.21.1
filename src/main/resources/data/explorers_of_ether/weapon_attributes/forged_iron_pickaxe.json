@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:mace",
+  "attributes": {
+    "two_handed": true,
+    "category": "pickaxe"
+  }
+}

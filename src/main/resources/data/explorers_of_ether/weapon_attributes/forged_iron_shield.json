@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:claw",
+  "attributes": {
+    "two_handed": false,
+    "category": "shield"
+  }
+}

@@ -1,12 +1,12 @@
 {
-  "creativetab.explorers_of_ether_ingredients": "Explorers of Ether: Ingredients",
-  "creativetab.explorers_of_ether_natural_blocks": "Explorers of Ether: Natural Blocks",
-  "creativetab.explorers_of_ether_tools_and_utilities": "Explorers of Ether: Tools & Utilities",
-  "creativetab.explorers_of_ether_functional_blocks": "Explorers of Ether: Functional Blocks",
-  "creativetab.explorers_of_ether_building_blocks": "Explorers of Ether: Building Blocks",
-  "creativetab.explorers_of_ether_combat": "Explorers of Ether: Combat",
-  "creativetab.explorers_of_ether_redstone_blocks": "Explorers of Ether: Redstone Blocks",
-  "creativetab.explorers_of_ether_spawn_eggs": "Explorers of Ether: Spawn Eggs",
+  "creativetab.explorers_of_ether.explorers_of_ether_ingredients": "Explorers of Ether: Ingredients",
+  "creativetab.explorers_of_ether.explorers_of_ether_natural_blocks": "Explorers of Ether: Natural Blocks",
+  "creativetab.explorers_of_ether.explorers_of_ether_tools_and_utilities": "Explorers of Ether: Tools & Utilities",
+  "creativetab.explorers_of_ether.explorers_of_ether_functional_blocks": "Explorers of Ether: Functional Blocks",
+  "creativetab.explorers_of_ether.explorers_of_ether_building_blocks": "Explorers of Ether: Building Blocks",
+  "creativetab.explorers_of_ether.explorers_of_ether_combat": "Explorers of Ether: Combat",
+  "creativetab.explorers_of_ether.explorers_of_ether_redstone_blocks": "Explorers of Ether: Redstone Blocks",
+  "creativetab.explorers_of_ether.explorers_of_ether_spawn_eggs": "Explorers of Ether: Spawn Eggs",
 
   "effect.explorers_of_ether.bleeding": "Bleeding",
   "effect.explorers_of_ether.spell_casting": "Casting Spells",
@@ -78,8 +78,8 @@
 
   "attribute.explorers_of_ether.health_regen": "Health Regeneration Rate",
 
-  "tooltip.explorersofether.enchantments": "Enchantments",
-  "tooltip.explorersofether.empty_slot": "Empty",
+  "tooltip.explorers_of_ether.enchantments": "Enchantments",
+  "tooltip.explorers_of_ether.empty_slot": "Empty",
 
   "advancement.magic.title": "Magic",
   "advancement.magic.desc": "Unlock Access to the Ether.",
@@ -95,5 +95,8 @@
   "key.explorers_of_ether.combo_up": "Combo Up",
   "key.explorers_of_ether.combo_down": "Combo Down",
 
-  "block.explorers_of_ether.forge": "Forge"
+  "block.explorers_of_ether.forge": "Forge",
+
+  "item.explorers_of_ether.crucible": "Crucible",
+  "item.explorers_of_ether.crucible.tooltip": "Molten Alloy Left"
 }

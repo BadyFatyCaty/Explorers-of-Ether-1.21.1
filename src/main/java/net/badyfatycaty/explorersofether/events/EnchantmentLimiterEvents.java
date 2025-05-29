@@ -5,11 +5,12 @@ import net.badyfatycaty.explorersofether.ExplorersofEther;
 import net.badyfatycaty.explorersofether.components.EnchantmentLimitComponent;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
 import net.minecraft.world.item.ItemStack;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.AnvilUpdateEvent;
 
-@EventBusSubscriber(modid = ExplorersofEther.MODID, bus = EventBusSubscriber.Bus.GAME)
+@EventBusSubscriber(modid = ExplorersofEther.MODID, bus = EventBusSubscriber.Bus.GAME, value = {Dist.CLIENT})
 public class EnchantmentLimiterEvents {
     @SubscribeEvent
     public static void onAnvilUpdate(AnvilUpdateEvent event) {

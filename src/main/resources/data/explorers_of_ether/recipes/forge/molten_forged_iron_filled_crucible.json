@@ -1,0 +1,21 @@
+{
+  "type": "explorers_of_ether:forge",
+  "ingredients": [
+    { "item": "minecraft:raw_iron" }, //top left
+    { "item": "minecraft:raw_iron" }, //top middle
+    { "item": "minecraft:raw_iron" }, //top right
+    { "item": "minecraft:raw_iron" }, //middle left
+    { "item": "minecraft:raw_iron" }, //middle middle
+    { "item": "minecraft:raw_iron" }, //middle right
+    { "item": "minecraft:raw_iron" }, //bottom left
+    { "item": "minecraft:raw_iron" }, //bottom middle
+    { "item": "minecraft:raw_iron" }  //bottom right
+  ],
+  "crucible": {
+    "item": "explorers_of_ether:crucible"
+  },
+  "result": {
+    "item": "explorers_of_ether:molten_forged_iron_filled_crucible",
+    "count": 1
+  }
+}

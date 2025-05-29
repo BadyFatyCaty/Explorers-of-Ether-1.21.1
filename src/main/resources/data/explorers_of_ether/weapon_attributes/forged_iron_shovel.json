@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:trident",
+  "attributes": {
+    "two_handed": false,
+    "category": "shovel"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "bettercombat:axe",
+  "attributes": {
+    "two_handed": false,
+    "category": "axe"
+  }
+}
