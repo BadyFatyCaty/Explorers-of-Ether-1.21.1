@@ -53,6 +53,15 @@
 		"bgStartColor": "#19102e",
 		"bgEndColor": "#19102e",
 		"selectors": ["^\uE000", "!common", "!uncommon", "!rare", "!epic"]
+		},
+		{
+		"index": 6,
+		"image": "legendarytooltips:textures/gui/explorers_of_ether_rarities.png",
+		"startColor": "30_#B02E26_#F9801D_#FED83D_#80C71F_#3AB3DA_#8932B8_#C74EBD",
+		"endColor": "30_#F9801D_#FED83D_#80C71F_#3AB3DA_#8932B8_#C74EBD_#B02E26",
+		"bgStartColor": "30_#B02E26-v160_#F9801D-v190_#FED83D-v190_#80C71F-v190_#3AB3DA-v160_#8932B8-v160_#C74EBD-v160",
+		"bgEndColor": "30_#F9801D-v170-s80_#FED83D-v160-s80_#80C71F-v120-s80_#3AB3DA-v120-s80_#8932B8-v120-s80_#C74EBD-v120-s80_#B02E26-v120-s80",
+		"selectors": ["^\uE006"]
 		}
 	]
 }

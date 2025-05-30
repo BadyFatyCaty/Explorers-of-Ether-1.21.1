@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "explorers_of_ether:font/attributes.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [
+        "\uA000\uA001\uA002\uA003\uA004\uA005\uA006\uA007\uA008\uA009",
+        "\uA010\uA011\uA012\uA013\uA014\uA015\uA016\uA017\uA018\uA019",
+        "\uA020\uA021\uA022\uA023\uA024\uA025\uA026\uA027\uA028\uA029",
+        "\uA030\uA031\uA032\uA033\uA034\uA035\uA036\uA037\uA038\uA039",
+        "\uA040\uA041\uA042\uA043\uA044\uA045\uA046\uA047\uA048\uA049",
+        "\uA050\uA051\uA052\uA053\uA054\uA055\uA056\uA057\uA058\uA059",
+        "\uA060\uA061\uA062\uA063\uA064\uA065\uA066\uA067\uA068\uA069"
+      ]
+    }
+  ]
+}

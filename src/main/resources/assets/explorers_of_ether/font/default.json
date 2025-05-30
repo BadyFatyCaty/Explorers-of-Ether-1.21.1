@@ -7,6 +7,10 @@
         {
             "type": "reference",
             "id": "explorers_of_ether:elements"
+        },
+        {
+            "type": "reference",
+            "id": "explorers_of_ether:attributes"
         }
     ]
 }
