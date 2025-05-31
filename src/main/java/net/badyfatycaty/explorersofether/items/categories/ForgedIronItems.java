@@ -3,6 +3,7 @@ package net.badyfatycaty.explorersofether.items.categories;
 import net.badyfatycaty.explorersofether.ExplorersofEther;
 import net.badyfatycaty.explorersofether.items.ModToolTiers;
 import net.badyfatycaty.explorersofether.items.custom.weapon_types.ClaymoreItem;
+import net.badyfatycaty.explorersofether.items.custom.weapon_types.DaggerItem;
 import net.badyfatycaty.explorersofether.items.custom.weapon_types.ModMaceItem;
 import net.badyfatycaty.explorersofether.items.custom.weapon_types.ModShieldItem;
 import net.minecraft.world.item.*;
@@ -61,6 +62,10 @@ public class ForgedIronItems {
     public static final DeferredItem<Item> FORGED_IRON_CLAYMORE = ITEMS.register("forged_iron_claymore",
             () -> new ClaymoreItem(ModToolTiers.FORGED_IRON, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.FORGED_IRON, 5.5F, -3.2F))));
+
+    public static final DeferredItem<Item> FORGED_IRON_DAGGER = ITEMS.register("forged_iron_dagger",
+            () -> new DaggerItem(ModToolTiers.FORGED_IRON, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.FORGED_IRON, 2, -2.2F))));
 
 
 

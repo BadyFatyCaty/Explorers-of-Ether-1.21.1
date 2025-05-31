@@ -5,10 +5,13 @@ import net.badyfatycaty.explorersofether.attributes.AttributesMain;
 import net.badyfatycaty.explorersofether.block.ModBlocks;
 import net.badyfatycaty.explorersofether.block.entity.ModBlockEntities;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
+import net.badyfatycaty.explorersofether.effect.ModEffects;
 import net.badyfatycaty.explorersofether.items.ModCreativeModeTabs;
 import net.badyfatycaty.explorersofether.items.ModItems;
 import net.badyfatycaty.explorersofether.items.categories.CrucibleItems;
 import net.badyfatycaty.explorersofether.items.categories.ForgedIronItems;
+import net.badyfatycaty.explorersofether.particle.BloodParticles;
+import net.badyfatycaty.explorersofether.particle.ModParticles;
 import net.badyfatycaty.explorersofether.screen.ModMenuTypes;
 import net.badyfatycaty.explorersofether.screen.custom.ForgeScreen;
 import net.neoforged.api.distmarker.Dist;
@@ -21,6 +24,7 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.neoforged.neoforge.client.event.RegisterParticleProvidersEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
@@ -63,6 +67,9 @@ public class ExplorersofEther
 
         ModMenuTypes.register(modEventBus);
 
+        ModEffects.register(modEventBus);
+        ModParticles.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -99,6 +106,11 @@ public class ExplorersofEther
         @SubscribeEvent
         public static void registerScreens(RegisterMenuScreensEvent event) {
             event.register(ModMenuTypes.FORGE_MENU.get(), ForgeScreen::new);
+        }
+
+        @SubscribeEvent
+        public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
+            event.registerSpriteSet(ModParticles.BLOOD_PARTICLES.get(), BloodParticles.Provider::new);
         }
     }
 }

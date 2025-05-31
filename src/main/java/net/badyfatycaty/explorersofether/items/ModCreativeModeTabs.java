@@ -47,6 +47,7 @@ public class ModCreativeModeTabs {
                         output.accept(ForgedIronItems.FORGED_IRON_AXE);
                         output.accept(ForgedIronItems.FORGED_IRON_MACE);
                         output.accept(ForgedIronItems.FORGED_IRON_SHIELD);
+                        output.accept(ForgedIronItems.FORGED_IRON_DAGGER);
 
                     }).build());
 
