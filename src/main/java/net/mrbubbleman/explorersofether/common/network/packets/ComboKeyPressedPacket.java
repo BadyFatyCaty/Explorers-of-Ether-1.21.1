@@ -6,6 +6,13 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
 import net.mrbubbleman.explorersofether.ExplorersofEther;
+import net.mrbubbleman.explorersofether.common.capability.playercaps.IPlayerCap;
+import net.mrbubbleman.explorersofether.common.capability.playercaps.PlayerData;
+import net.mrbubbleman.explorersofether.common.capability.playercaps.PlayerDataCap;
+import net.mrbubbleman.explorersofether.common.network.Networking;
+import net.mrbubbleman.explorersofether.setup.registry.AttachmentsRegistry;
+import net.mrbubbleman.explorersofether.setup.registry.CapabilityRegistry;
+import net.neoforged.neoforge.common.NeoForge;
 
 public class ComboKeyPressedPacket extends AbstractPacket {
     public static final CustomPacketPayload.Type<ComboKeyPressedPacket> TYPE = new CustomPacketPayload.Type(ExplorersofEther.prefix("ex_play_to_server"));
@@ -25,8 +32,8 @@ public class ComboKeyPressedPacket extends AbstractPacket {
         buf.writeChar(this.comboDirection);
     }
 
-    public void onServerReceived(MinecraftServer minecraftServer, ServerPlayer player) {
-        // ExplorersofEther.LOGGER.info("Key Pressed: " + comboDirection);
+    public void onServerReceived(MinecraftServer server, ServerPlayer player) {
+
     }
 
     public CustomPacketPayload.Type<? extends CustomPacketPayload> type() {

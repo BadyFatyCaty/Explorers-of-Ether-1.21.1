@@ -1,7 +1,6 @@
 package net.mrbubbleman.explorersofether.common.capability.playercaps;
 
-import dev.kosmx.playerAnim.api.IPlayer;
-import net.mrbubbleman.explorersofether.common.elements.Elements;
+import net.mrbubbleman.explorersofether.common.capability.elements.Elements;
 
 import java.util.ArrayList;
 import java.util.HashMap;

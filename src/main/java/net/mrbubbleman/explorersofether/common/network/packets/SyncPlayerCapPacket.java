@@ -24,25 +24,28 @@ public class SyncPlayerCapPacket extends AbstractPacket {
 
     public void toBytes(RegistryFriendlyByteBuf buf) {
         buf.writeNbt(this.tag);
-        ExplorersofEther.LOGGER.info("\n\nSync Packet WRITTEN\n\n");
+        // ExplorersofEther.LOGGER.info("\n\nSync Packet WRITTEN\n\n");
     }
 
     public SyncPlayerCapPacket(CompoundTag famCaps) {
         this.tag = famCaps;
-        ExplorersofEther.LOGGER.info("\n\nSync Packet Constructed\n\n");
+        // ExplorersofEther.LOGGER.info("\n\nSync Packet Constructed\n\n");
     }
 
     public void onClientReceived(Minecraft minecraft, Player playerEntity) {
-        PlayerData data = new PlayerData();
-        data.deserializeNBT(playerEntity.registryAccess(), this.tag);
-        playerEntity.setData(AttachmentsRegistry.PLAYER_DATA, data);
-        PlayerDataCap cap = CapabilityRegistry.getPlayerDataCap(ExplorersofEther.proxy.getPlayer());
-        if (cap != null) {
-            cap.setPlayerData(data);
+        if (playerEntity == null) return;
+
+        var data = playerEntity.getData(AttachmentsRegistry.PLAYER_DATA);
+        if (data instanceof PlayerData playerData) {
+            playerData.deserializeNBT(playerEntity.registryAccess(), this.tag);
         } else {
-            // CapabilityRegistry.registerCapabilities();
+            ExplorersofEther.LOGGER.error("SyncPlayerCapPacket: PLAYER_DATA is null or not of type PlayerData.");
         }
-        ExplorersofEther.LOGGER.info("\n\nSync Packet RECIEVED\n\n");
+
+        PlayerDataCap cap = CapabilityRegistry.getPlayerDataCap(playerEntity);
+        if (cap != null && data instanceof PlayerData playerData) {
+            cap.setPlayerData(playerData); // Optional, depends if your cap caches it separately
+        }
     }
 
     public CustomPacketPayload.Type<? extends CustomPacketPayload> type() {

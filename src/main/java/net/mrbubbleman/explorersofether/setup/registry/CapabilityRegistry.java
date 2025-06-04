@@ -17,12 +17,6 @@ public class CapabilityRegistry {
     // public static final EntityCapability<ManaCap, Void> MANA_CAPABILITY = EntityCapability.createVoid(ArsNouveau.prefix("mana"), ManaCap.class);
     public static final EntityCapability<PlayerDataCap, Void> PLAYER_DATA_CAP = EntityCapability.createVoid(ExplorersofEther.prefix("player_data"), PlayerDataCap.class);
 
-    /*
-    public static ManaCap getMana(LivingEntity entity) {
-        return entity == null ? null : (ManaCap)entity.getCapability(MANA_CAPABILITY);
-    }
-     */
-
     public static PlayerDataCap getPlayerDataCap(LivingEntity entity) {
         return entity == null ? null : (PlayerDataCap)entity.getCapability(PLAYER_DATA_CAP);
     }

@@ -3,11 +3,10 @@ package net.mrbubbleman.explorersofether.common.capability.playercaps;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.LivingEntity;
-import net.mrbubbleman.explorersofether.common.elements.Elements;
+import net.mrbubbleman.explorersofether.common.capability.elements.Elements;
 import net.mrbubbleman.explorersofether.common.network.Networking;
 import net.mrbubbleman.explorersofether.common.network.packets.SyncPlayerCapPacket;
 import net.mrbubbleman.explorersofether.setup.registry.AttachmentsRegistry;
-import net.neoforged.neoforge.capabilities.CapabilityRegistry;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -2,16 +2,12 @@ package net.mrbubbleman.explorersofether.common.capability.playercaps;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.world.entity.LivingEntity;
-import net.mrbubbleman.explorersofether.common.elements.Elements;
+import net.mrbubbleman.explorersofether.common.capability.elements.Elements;
 import net.neoforged.neoforge.common.util.INBTSerializable;
-import org.checkerframework.checker.units.qual.A;
-import org.checkerframework.checker.units.qual.C;
 import org.jetbrains.annotations.UnknownNullability;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Set;
 
 public class PlayerData implements INBTSerializable<CompoundTag> {
@@ -50,13 +46,17 @@ public class PlayerData implements INBTSerializable<CompoundTag> {
         CompoundTag combo = new CompoundTag();
         for (int i = 0; i < combo.size(); i++) {
             if (this.combo.get(i) == 'U') {
-                combo.putInt(i+"", 1);
+                // combo.putInt(i+"", 1);
+                combo.putString(i+"", "U");
             } else if (this.combo.get(i) == 'D') {
-                combo.putInt(i+"", 2);
+                // combo.putInt(i+"", 2);
+                combo.putString(i+"", "D");
             } else if (this.combo.get(i) == 'L') {
-                combo.putInt(i+"", 3);
+                // combo.putInt(i+"", 3);
+                combo.putString(i+"", "L");
             } else if (this.combo.get(i) == 'R') {
-                combo.putInt(i+"", 4);
+                // combo.putInt(i+"", 4);
+                combo.putString(i+"", "R");
             }
         }
         nbt.put("combo", combo);
@@ -105,12 +105,24 @@ public class PlayerData implements INBTSerializable<CompoundTag> {
 
             for (String key : comboTag.getAllKeys()) {
                 int index = Integer.parseInt(key);
-                int value = comboTag.getInt(key);
+                String value = comboTag.getString(key);
+
+                if (value.equals("U")) {
+                    this.combo.add('U');
+                } else if (value.equals("L")) {
+                    this.combo.add('L');
+                } else if (value.equals("R")) {
+                    this.combo.add('R');
+                } else if (value.equals("D")) {
+                    this.combo.add('D');
+                }
+
+                /*
                 char direction = switch (value) {
-                    case 1 -> 'U';
-                    case 2 -> 'D';
-                    case 3 -> 'L';
-                    case 4 -> 'R';
+                    case "U" -> 'U';
+                    case "D" -> 'D';
+                    case "L" -> 'L';
+                    case "R" -> 'R';
                     default -> '?';
                 };
                 if (direction != '?') {
@@ -119,6 +131,7 @@ public class PlayerData implements INBTSerializable<CompoundTag> {
                     }
                     this.combo.set(index, direction);
                 }
+                 */
             }
         }
 
