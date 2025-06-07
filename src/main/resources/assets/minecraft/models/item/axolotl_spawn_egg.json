@@ -1,0 +1,147 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/axolotl_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "axolotl_spawn_egg_0",
+			"from": [4, 3, 7.5],
+			"to": [6, 13, 8.5],
+			"faces": {
+				"north": {"uv": [6, 3, 4, 13], "texture": "#0"},
+				"east": {"uv": [5, 3, 6, 13], "texture": "#0"},
+				"south": {"uv": [4, 3, 6, 13], "texture": "#0"},
+				"west": {"uv": [4, 3, 5, 13], "texture": "#0"},
+				"up": {"uv": [4, 3, 6, 4], "texture": "#0"},
+				"down": {"uv": [4, 12, 6, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_1",
+			"from": [8, 4, 7.5],
+			"to": [10, 13, 8.5],
+			"faces": {
+				"north": {"uv": [10, 3, 8, 12], "texture": "#0"},
+				"east": {"uv": [9, 3, 10, 12], "texture": "#0"},
+				"south": {"uv": [8, 3, 10, 12], "texture": "#0"},
+				"west": {"uv": [8, 3, 9, 12], "texture": "#0"},
+				"up": {"uv": [8, 3, 10, 4], "texture": "#0"},
+				"down": {"uv": [8, 11, 10, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_2",
+			"from": [2, 5, 7.5],
+			"to": [4, 12, 8.5],
+			"faces": {
+				"north": {"uv": [4, 4, 2, 11], "texture": "#0"},
+				"south": {"uv": [2, 4, 4, 11], "texture": "#0"},
+				"west": {"uv": [2, 4, 3, 11], "texture": "#0"},
+				"up": {"uv": [2, 4, 4, 5], "texture": "#0"},
+				"down": {"uv": [2, 10, 4, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_3",
+			"from": [6, 5, 7.5],
+			"to": [8, 12, 8.5],
+			"faces": {
+				"north": {"uv": [8, 4, 6, 11], "texture": "#0"},
+				"south": {"uv": [6, 4, 8, 11], "texture": "#0"},
+				"up": {"uv": [6, 4, 8, 5], "texture": "#0"},
+				"down": {"uv": [6, 10, 8, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_4",
+			"from": [10, 5, 7.5],
+			"to": [12, 11, 8.5],
+			"faces": {
+				"north": {"uv": [12, 5, 10, 11], "texture": "#0"},
+				"east": {"uv": [11, 5, 12, 11], "texture": "#0"},
+				"south": {"uv": [10, 5, 12, 11], "texture": "#0"},
+				"up": {"uv": [10, 5, 12, 6], "texture": "#0"},
+				"down": {"uv": [10, 10, 12, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_5",
+			"from": [1, 5, 7.5],
+			"to": [2, 10, 8.5],
+			"faces": {
+				"north": {"uv": [2, 6, 1, 11], "texture": "#0"},
+				"south": {"uv": [1, 6, 2, 11], "texture": "#0"},
+				"west": {"uv": [1, 6, 2, 11], "texture": "#0"},
+				"up": {"uv": [1, 6, 2, 7], "texture": "#0"},
+				"down": {"uv": [1, 10, 2, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_6",
+			"from": [12, 7, 7.5],
+			"to": [15, 10, 8.5],
+			"faces": {
+				"north": {"uv": [15, 6, 12, 9], "texture": "#0"},
+				"east": {"uv": [14, 6, 15, 9], "texture": "#0"},
+				"south": {"uv": [12, 6, 15, 9], "texture": "#0"},
+				"up": {"uv": [12, 6, 15, 7], "texture": "#0"},
+				"down": {"uv": [12, 8, 15, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_7",
+			"from": [12, 4, 7.5],
+			"to": [14, 7, 8.5],
+			"faces": {
+				"north": {"uv": [14, 9, 12, 12], "texture": "#0"},
+				"east": {"uv": [13, 9, 14, 12], "texture": "#0"},
+				"south": {"uv": [12, 9, 14, 12], "texture": "#0"},
+				"west": {"uv": [12, 9, 13, 12], "texture": "#0"},
+				"down": {"uv": [12, 11, 14, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_8",
+			"from": [3, 4, 7.5],
+			"to": [4, 5, 8.5],
+			"faces": {
+				"north": {"uv": [4, 11, 3, 12], "texture": "#0"},
+				"south": {"uv": [3, 11, 4, 12], "texture": "#0"},
+				"west": {"uv": [3, 11, 4, 12], "texture": "#0"},
+				"down": {"uv": [3, 11, 4, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_9",
+			"from": [10, 3, 7.5],
+			"to": [11, 5, 8.5],
+			"faces": {
+				"north": {"uv": [11, 11, 10, 13], "texture": "#0"},
+				"east": {"uv": [10, 11, 11, 13], "texture": "#0"},
+				"south": {"uv": [10, 11, 11, 13], "texture": "#0"},
+				"down": {"uv": [10, 12, 11, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "axolotl_spawn_egg_10",
+			"from": [9, 3, 7.5],
+			"to": [10, 4, 8.5],
+			"faces": {
+				"north": {"uv": [10, 12, 9, 13], "texture": "#0"},
+				"south": {"uv": [9, 12, 10, 13], "texture": "#0"},
+				"west": {"uv": [9, 12, 10, 13], "texture": "#0"},
+				"down": {"uv": [9, 12, 10, 13], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "axolotl_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		}
+	]
+}

@@ -36,11 +36,8 @@ public class ModShieldItem extends TieredItem implements Equipable {
         return new Tool(List.of(Rule.overrideSpeed(BlockTags.MINEABLE_WITH_SHOVEL, 1.0F)), 1.0F, 2);
     }
 
-    private static ItemAttributeModifiers createAttributes(Tier tier, int attackDamage, float attackSpeed) {
-        return ItemAttributeModifiers.builder()
-                .add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, (double)(attackDamage + tier.getAttackDamageBonus()), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
-                .add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, (double)attackSpeed, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND)
-                .build();
+    public static ItemAttributeModifiers createAttributes(Tier tier, float attackDamage, float attackSpeed) {
+        return ItemAttributeModifiers.builder().add(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_ID, (double)(attackDamage + tier.getAttackDamageBonus()), AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).add(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_ID, (double)attackSpeed, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.MAINHAND).build();
     }
 
     public String getDescriptionId(ItemStack stack) {

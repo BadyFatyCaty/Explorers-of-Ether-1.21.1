@@ -21,6 +21,8 @@
     "#explorers_of_ether:hoes",
     "#explorers_of_ether:claymores",
     "#explorers_of_ether:maces",
-    "#explorers_of_ether:shields"
+    "#explorers_of_ether:shields",
+    "#explorers_of_ether:bows",
+    "#explorers_of_ether:crossbows"
   ]
 }

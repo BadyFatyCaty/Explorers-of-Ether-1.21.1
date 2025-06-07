@@ -1,0 +1,6 @@
+{
+	"parent": "item/skeleton_spawn_egg",
+	"textures": {
+		"0": "item/stray_spawn_egg"
+	}
+}

@@ -186,7 +186,10 @@ public class TooltipHandler {
                     || raw.contains("submerged mining speed")
                     || raw.contains("sweeping damage ratio")
                     || raw.contains("tempt range")
-                    || raw.contains("water movement efficiency");
+                    || raw.contains("water movement efficiency")
+                    || raw.contains("projectile damage")
+                    || raw.contains("draw speed")
+                    ;
         });
 
         // Remove Better Combat attack range line (dark green formatted with attack_range key)
@@ -316,38 +319,38 @@ public class TooltipHandler {
                         case "attribute.name.generic.submerged_mining_speed" -> "\uA028";
                         case "attribute.name.generic.sweeping_damage_ratio" -> "\uA029";
                         case "attribute.name.generic.tempt_range" -> "\uA030";
-                        case "attribute.name.explorers_of_ether.crit_rate" -> "\uA031";
-                        case "attribute.name.explorers_of_ether.crit_damage" -> "\uA032";
-                        case "attribute.name.explorers_of_ether.dark_damage" -> "\uA033";
-                        case "attribute.name.explorers_of_ether.dark_resistance" -> "\uA034";
-                        case "attribute.name.explorers_of_ether.earth_damage" -> "\uA035";
-                        case "attribute.name.explorers_of_ether.earth_resistance" -> "\uA036";
-                        case "attribute.name.explorers_of_ether.fire_damage" -> "\uA037";
-                        case "attribute.name.explorers_of_ether.fire_resistance" -> "\uA038";
-                        case "attribute.name.explorers_of_ether.light_damage" -> "\uA039";
-                        case "attribute.name.explorers_of_ether.light_resistance" -> "\uA040";
-                        case "attribute.name.explorers_of_ether.plant_damage" -> "\uA041";
-                        case "attribute.name.explorers_of_ether.plant_resistance" -> "\uA042";
-                        case "attribute.name.explorers_of_ether.water_damage" -> "\uA043";
-                        case "attribute.name.explorers_of_ether.water_resistance" -> "\uA044";
-                        case "attribute.name.explorers_of_ether.wind_damage" -> "\uA045";
-                        case "attribute.name.explorers_of_ether.wind_resistance" -> "\uA046";
-                        case "attribute.name.explorers_of_ether.magic_damage" -> "\uA047";
-                        case "attribute.name.explorers_of_ether.magic_resistance" -> "\uA048";
-                        case "attribute.name.explorers_of_ether.mana" -> "\uA049";
-                        case "attribute.name.explorers_of_ether.max_mana" -> "\uA050";
-                        case "attribute.name.explorers_of_ether.mana_regen" -> "\uA051";
-                        case "attribute.name.explorers_of_ether.draw_speed" -> "\uA052";
-                        case "attribute.name.explorers_of_ether.projectile_damage" -> "\uA053";
-                        case "attribute.name.explorers_of_ether.projectile_resistance" -> "\uA054";
-                        case "attribute.name.explorers_of_ether.spirit_attack_speed" -> "\uA055";
-                        case "attribute.name.explorers_of_ether.spirit_damage" -> "\uA056";
-                        case "attribute.name.explorers_of_ether.spirit_health" -> "\uA057";
-                        case "attribute.name.explorers_of_ether.spirit_movement_speed" -> "\uA058";
-                        case "attribute.name.explorers_of_ether.stamina" -> "\uA059";
-                        case "attribute.name.explorers_of_ether.max_stamina" -> "\uA060";
-                        case "attribute.name.explorers_of_ether.stamina_regen" -> "\uA061";
-                        case "attribute.name.explorers_of_ether.health_regen" -> "\uA062";
+                        case "attribute.explorers_of_ether.crit_rate" -> "\uA031";
+                        case "attribute.explorers_of_ether.crit_damage" -> "\uA032";
+                        case "attribute.explorers_of_ether.dark_damage" -> "\uA033";
+                        case "attribute.explorers_of_ether.dark_resistance" -> "\uA034";
+                        case "attribute.explorers_of_ether.earth_damage" -> "\uA035";
+                        case "attribute.explorers_of_ether.earth_resistance" -> "\uA036";
+                        case "attribute.explorers_of_ether.fire_damage" -> "\uA037";
+                        case "attribute.explorers_of_ether.fire_resistance" -> "\uA038";
+                        case "attribute.explorers_of_ether.light_damage" -> "\uA039";
+                        case "attribute.explorers_of_ether.light_resistance" -> "\uA040";
+                        case "attribute.explorers_of_ether.plant_damage" -> "\uA041";
+                        case "attribute.explorers_of_ether.plant_resistance" -> "\uA042";
+                        case "attribute.explorers_of_ether.water_damage" -> "\uA043";
+                        case "attribute.explorers_of_ether.water_resistance" -> "\uA044";
+                        case "attribute.explorers_of_ether.wind_damage" -> "\uA045";
+                        case "attribute.explorers_of_ether.wind_resistance" -> "\uA046";
+                        case "attribute.explorers_of_ether.magic_damage" -> "\uA047";
+                        case "attribute.explorers_of_ether.magic_resistance" -> "\uA048";
+                        case "attribute.explorers_of_ether.mana" -> "\uA049";
+                        case "attribute.explorers_of_ether.max_mana" -> "\uA050";
+                        case "attribute.explorers_of_ether.mana_regen" -> "\uA051";
+                        case "attribute.explorers_of_ether.draw_speed" -> "\uA052";
+                        case "attribute.explorers_of_ether.projectile_damage" -> "\uA053";
+                        case "attribute.explorers_of_ether.projectile_resistance" -> "\uA054";
+                        case "attribute.explorers_of_ether.spirit_attack_speed" -> "\uA055";
+                        case "attribute.explorers_of_ether.spirit_damage" -> "\uA056";
+                        case "attribute.explorers_of_ether.spirit_health" -> "\uA057";
+                        case "attribute.explorers_of_ether.spirit_movement_speed" -> "\uA058";
+                        case "attribute.explorers_of_ether.stamina" -> "\uA059";
+                        case "attribute.explorers_of_ether.max_stamina" -> "\uA060";
+                        case "attribute.explorers_of_ether.stamina_regen" -> "\uA061";
+                        case "attribute.explorers_of_ether.health_regen" -> "\uA062";
                         case "attribute.name.neoforge.creative_flight" -> "\uA063";
                         case "attribute.name.neoforge.nametag_distance" -> "\uA064";
                         case "attribute.name.neoforge.swim_speed" -> "\uA065";

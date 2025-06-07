@@ -1,0 +1,115 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/cat_spawn_egg",
+		"particle": "item/cat_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "cat_spawn_egg_0",
+			"from": [8, 3, 7.5],
+			"to": [10, 13, 8.5],
+			"faces": {
+				"north": {"uv": [10, 3, 8, 13], "texture": "#0"},
+				"east": {"uv": [9, 3, 10, 13], "texture": "#0"},
+				"south": {"uv": [8, 3, 10, 13], "texture": "#0"},
+				"west": {"uv": [8, 3, 9, 13], "texture": "#0"},
+				"up": {"uv": [8, 3, 10, 4], "texture": "#0"},
+				"down": {"uv": [8, 12, 10, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_1",
+			"from": [2, 5, 7.5],
+			"to": [4, 12, 8.5],
+			"faces": {
+				"north": {"uv": [4, 4, 2, 11], "texture": "#0"},
+				"east": {"uv": [3, 4, 4, 11], "texture": "#0"},
+				"south": {"uv": [2, 4, 4, 11], "texture": "#0"},
+				"west": {"uv": [2, 4, 3, 11], "texture": "#0"},
+				"up": {"uv": [2, 4, 4, 5], "texture": "#0"},
+				"down": {"uv": [2, 10, 4, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_2",
+			"from": [5, 2, 7.5],
+			"to": [8, 12, 8.5],
+			"faces": {
+				"north": {"uv": [8, 4, 5, 14], "texture": "#0"},
+				"east": {"uv": [7, 4, 8, 14], "texture": "#0"},
+				"south": {"uv": [5, 4, 8, 14], "texture": "#0"},
+				"west": {"uv": [5, 4, 6, 14], "texture": "#0"},
+				"up": {"uv": [5, 4, 8, 5], "texture": "#0"},
+				"down": {"uv": [5, 13, 8, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_3",
+			"from": [10, 7, 7.5],
+			"to": [15, 12, 8.5],
+			"faces": {
+				"north": {"uv": [15, 4, 10, 9], "texture": "#0"},
+				"east": {"uv": [14, 4, 15, 9], "texture": "#0"},
+				"south": {"uv": [10, 4, 15, 9], "texture": "#0"},
+				"up": {"uv": [10, 4, 15, 5], "texture": "#0"},
+				"down": {"uv": [10, 8, 15, 9], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_4",
+			"from": [4, 2, 7.5],
+			"to": [5, 11, 8.5],
+			"faces": {
+				"north": {"uv": [5, 5, 4, 14], "texture": "#0"},
+				"south": {"uv": [4, 5, 5, 14], "texture": "#0"},
+				"west": {"uv": [4, 5, 5, 14], "texture": "#0"},
+				"up": {"uv": [4, 5, 5, 6], "texture": "#0"},
+				"down": {"uv": [4, 13, 5, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_5",
+			"from": [1, 6, 7.5],
+			"to": [2, 10, 8.5],
+			"faces": {
+				"north": {"uv": [2, 6, 1, 10], "texture": "#0"},
+				"south": {"uv": [1, 6, 2, 10], "texture": "#0"},
+				"west": {"uv": [1, 6, 2, 10], "texture": "#0"},
+				"up": {"uv": [1, 6, 2, 7], "texture": "#0"},
+				"down": {"uv": [1, 9, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_6",
+			"from": [10, 2, 7.5],
+			"to": [13, 7, 8.5],
+			"faces": {
+				"north": {"uv": [13, 9, 10, 14], "texture": "#0"},
+				"east": {"uv": [12, 9, 13, 14], "texture": "#0"},
+				"south": {"uv": [10, 9, 13, 14], "texture": "#0"},
+				"down": {"uv": [10, 13, 13, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "cat_spawn_egg_7",
+			"from": [9, 2, 7.5],
+			"to": [10, 3, 8.5],
+			"faces": {
+				"north": {"uv": [10, 13, 9, 14], "texture": "#0"},
+				"south": {"uv": [9, 13, 10, 14], "texture": "#0"},
+				"west": {"uv": [9, 13, 10, 14], "texture": "#0"},
+				"down": {"uv": [9, 13, 10, 14], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "cat_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

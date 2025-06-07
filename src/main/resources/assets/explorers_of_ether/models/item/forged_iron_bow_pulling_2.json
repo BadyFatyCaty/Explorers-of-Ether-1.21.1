@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "explorers_of_ether:item/forged_iron/bow/forged_iron_bow_pulling_2"
+    }
+}

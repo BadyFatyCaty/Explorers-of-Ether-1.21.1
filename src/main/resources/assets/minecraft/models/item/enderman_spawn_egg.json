@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/enderman_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "enderman_spawn_egg_0",
+			"from": [4, 4, 7.5],
+			"to": [11, 16, 8.5],
+			"faces": {
+				"north": {"uv": [11, 0, 4, 12], "texture": "#0"},
+				"east": {"uv": [10, 0, 11, 12], "texture": "#0"},
+				"south": {"uv": [4, 0, 11, 12], "texture": "#0"},
+				"west": {"uv": [4, 0, 5, 12], "texture": "#0"},
+				"up": {"uv": [4, 0, 11, 1], "texture": "#0"},
+				"down": {"uv": [4, 11, 11, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "enderman_spawn_egg_1",
+			"from": [5, 0, 7.5],
+			"to": [10, 4, 8.5],
+			"faces": {
+				"north": {"uv": [10, 12, 5, 16], "texture": "#0"},
+				"east": {"uv": [9, 12, 10, 16], "texture": "#0"},
+				"south": {"uv": [5, 12, 10, 16], "texture": "#0"},
+				"west": {"uv": [5, 12, 6, 16], "texture": "#0"},
+				"down": {"uv": [5, 15, 10, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "enderman_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

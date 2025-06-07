@@ -1,0 +1,6 @@
+{
+	"parent": "explorers_of_ether:item/template_chakram",
+	"textures": {
+		"layer0": "explorers_of_ether:item/iron_chakram"
+	}
+}

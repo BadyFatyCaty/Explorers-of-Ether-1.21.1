@@ -1,0 +1,6 @@
+{
+    "parent": "explorers_of_ether:item/forged_iron_crossbow",
+    "textures": {
+        "layer0": "explorers_of_ether:item/forged_iron/crossbow/forged_iron_crossbow_pulling_0"
+    }
+}

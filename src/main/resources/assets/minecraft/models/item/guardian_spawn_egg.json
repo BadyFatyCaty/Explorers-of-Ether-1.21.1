@@ -1,0 +1,116 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/guardian_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "guardian_spawn_egg_0",
+			"from": [5, 2, 7.5],
+			"to": [6, 15, 8.5],
+			"faces": {
+				"north": {"uv": [6, 1, 5, 14], "texture": "#0"},
+				"east": {"uv": [5, 1, 6, 14], "texture": "#0"},
+				"south": {"uv": [5, 1, 6, 14], "texture": "#0"},
+				"west": {"uv": [5, 1, 6, 14], "texture": "#0"},
+				"up": {"uv": [5, 1, 6, 2], "texture": "#0"},
+				"down": {"uv": [5, 13, 6, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_1",
+			"from": [2, 3, 7.5],
+			"to": [5, 14, 8.5],
+			"faces": {
+				"north": {"uv": [5, 2, 2, 13], "texture": "#0"},
+				"south": {"uv": [2, 2, 5, 13], "texture": "#0"},
+				"west": {"uv": [2, 2, 3, 13], "texture": "#0"},
+				"up": {"uv": [2, 2, 5, 3], "texture": "#0"},
+				"down": {"uv": [2, 12, 5, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_2",
+			"from": [6, 3, 7.5],
+			"to": [12, 14, 8.5],
+			"faces": {
+				"north": {"uv": [12, 2, 6, 13], "texture": "#0"},
+				"east": {"uv": [11, 2, 12, 13], "texture": "#0"},
+				"south": {"uv": [6, 2, 12, 13], "texture": "#0"},
+				"up": {"uv": [6, 2, 12, 3], "texture": "#0"},
+				"down": {"uv": [6, 12, 12, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_3",
+			"from": [1, 4, 7.5],
+			"to": [2, 13, 8.5],
+			"faces": {
+				"north": {"uv": [2, 3, 1, 12], "texture": "#0"},
+				"south": {"uv": [1, 3, 2, 12], "texture": "#0"},
+				"west": {"uv": [1, 3, 2, 12], "texture": "#0"},
+				"up": {"uv": [1, 3, 2, 4], "texture": "#0"},
+				"down": {"uv": [1, 11, 2, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_4",
+			"from": [12, 2, 7.5],
+			"to": [13, 13, 8.5],
+			"faces": {
+				"north": {"uv": [13, 3, 12, 14], "texture": "#0"},
+				"east": {"uv": [12, 3, 13, 14], "texture": "#0"},
+				"south": {"uv": [12, 3, 13, 14], "texture": "#0"},
+				"west": {"uv": [12, 3, 13, 14], "texture": "#0"},
+				"up": {"uv": [12, 3, 13, 4], "texture": "#0"},
+				"down": {"uv": [12, 13, 13, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_5",
+			"from": [0, 8, 7.5],
+			"to": [1, 9, 8.5],
+			"faces": {
+				"north": {"uv": [1, 7, 0, 8], "texture": "#0"},
+				"south": {"uv": [0, 7, 1, 8], "texture": "#0"},
+				"west": {"uv": [0, 7, 1, 8], "texture": "#0"},
+				"up": {"uv": [0, 7, 1, 8], "texture": "#0"},
+				"down": {"uv": [0, 7, 1, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_6",
+			"from": [13, 1, 7.5],
+			"to": [14, 8, 8.5],
+			"faces": {
+				"north": {"uv": [14, 8, 13, 15], "texture": "#0"},
+				"east": {"uv": [13, 8, 14, 15], "texture": "#0"},
+				"south": {"uv": [13, 8, 14, 15], "texture": "#0"},
+				"west": {"uv": [13, 8, 14, 15], "texture": "#0"},
+				"up": {"uv": [13, 8, 14, 9], "texture": "#0"},
+				"down": {"uv": [13, 14, 14, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "guardian_spawn_egg_7",
+			"from": [14, 1, 7.5],
+			"to": [15, 6, 8.5],
+			"faces": {
+				"north": {"uv": [15, 10, 14, 15], "texture": "#0"},
+				"east": {"uv": [14, 10, 15, 15], "texture": "#0"},
+				"south": {"uv": [14, 10, 15, 15], "texture": "#0"},
+				"up": {"uv": [14, 10, 15, 11], "texture": "#0"},
+				"down": {"uv": [14, 14, 15, 15], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "guardian_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

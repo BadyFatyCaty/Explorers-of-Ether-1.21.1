@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/piglin_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "piglin_spawn_egg_0",
+			"from": [4, 4, 7.5],
+			"to": [12, 15, 8.5],
+			"faces": {
+				"north": {"uv": [12, 1, 4, 12], "texture": "#0"},
+				"east": {"uv": [11, 1, 12, 12], "texture": "#0"},
+				"south": {"uv": [4, 1, 12, 12], "texture": "#0"},
+				"west": {"uv": [4, 1, 5, 12], "texture": "#0"},
+				"up": {"uv": [4, 1, 12, 2], "texture": "#0"},
+				"down": {"uv": [4, 11, 12, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "piglin_spawn_egg_1",
+			"from": [12, 10, 7.5],
+			"to": [13, 13, 8.5],
+			"faces": {
+				"north": {"uv": [13, 3, 12, 6], "texture": "#0"},
+				"east": {"uv": [12, 3, 13, 6], "texture": "#0"},
+				"south": {"uv": [12, 3, 13, 6], "texture": "#0"},
+				"up": {"uv": [12, 3, 13, 4], "texture": "#0"},
+				"down": {"uv": [12, 5, 13, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "piglin_spawn_egg_2",
+			"from": [3, 10, 7.5],
+			"to": [4, 12, 8.5],
+			"faces": {
+				"north": {"uv": [4, 4, 3, 6], "texture": "#0"},
+				"south": {"uv": [3, 4, 4, 6], "texture": "#0"},
+				"west": {"uv": [3, 4, 4, 6], "texture": "#0"},
+				"up": {"uv": [3, 4, 4, 5], "texture": "#0"},
+				"down": {"uv": [3, 5, 4, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "piglin_spawn_egg_3",
+			"from": [3, 4, 7.5],
+			"to": [4, 9, 8.5],
+			"faces": {
+				"north": {"uv": [4, 7, 3, 12], "texture": "#0"},
+				"south": {"uv": [3, 7, 4, 12], "texture": "#0"},
+				"west": {"uv": [3, 7, 4, 12], "texture": "#0"},
+				"up": {"uv": [3, 7, 4, 8], "texture": "#0"},
+				"down": {"uv": [3, 11, 4, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "piglin_spawn_egg_4",
+			"from": [12, 4, 7.5],
+			"to": [13, 9, 8.5],
+			"faces": {
+				"north": {"uv": [13, 7, 12, 12], "texture": "#0"},
+				"east": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"south": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"up": {"uv": [12, 7, 13, 8], "texture": "#0"},
+				"down": {"uv": [12, 11, 13, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "piglin_spawn_egg_5",
+			"from": [5, 1, 7.5],
+			"to": [11, 4, 8.5],
+			"faces": {
+				"north": {"uv": [11, 12, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 12, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 12, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 12, 6, 15], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "piglin_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

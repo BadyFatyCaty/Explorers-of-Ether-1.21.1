@@ -1,19 +1,24 @@
 package net.badyfatycaty.explorersofether;
 
 import com.mojang.logging.LogUtils;
-import net.badyfatycaty.explorersofether.attributes.AttributesMain;
+import net.badyfatycaty.explorersofether.attributes.ModAttributes;
 import net.badyfatycaty.explorersofether.block.ModBlocks;
 import net.badyfatycaty.explorersofether.block.entity.ModBlockEntities;
 import net.badyfatycaty.explorersofether.components.ModDataComponents;
 import net.badyfatycaty.explorersofether.effect.ModEffects;
+import net.badyfatycaty.explorersofether.events.ModBowEvents;
 import net.badyfatycaty.explorersofether.items.ModCreativeModeTabs;
 import net.badyfatycaty.explorersofether.items.ModItems;
 import net.badyfatycaty.explorersofether.items.categories.CrucibleItems;
 import net.badyfatycaty.explorersofether.items.categories.ForgedIronItems;
 import net.badyfatycaty.explorersofether.particle.BloodParticles;
+import net.badyfatycaty.explorersofether.particle.CritSkullParticle;
 import net.badyfatycaty.explorersofether.particle.ModParticles;
 import net.badyfatycaty.explorersofether.screen.ModMenuTypes;
 import net.badyfatycaty.explorersofether.screen.custom.ForgeScreen;
+import net.badyfatycaty.explorersofether.util.ModItemProperties;
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -49,10 +54,10 @@ public class ExplorersofEther
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
+        // Do not add this line if there are no @SubscribeEvent-annotated function in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
-        AttributesMain.registerAllAttributes(modEventBus);
+        ModAttributes.registerAllAttributes(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
 
@@ -69,6 +74,8 @@ public class ExplorersofEther
 
         ModEffects.register(modEventBus);
         ModParticles.register(modEventBus);
+
+        NeoForge.EVENT_BUS.register(ModBowEvents.class);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -100,7 +107,11 @@ public class ExplorersofEther
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
+            ModItemProperties.addCustomItemProperties();
+            ItemProperties.register(ForgedIronItems.FORGED_IRON_SHIELD.get(), ResourceLocation.fromNamespaceAndPath("minecraft", "blocking"),
+                (stack, level, entity, seed) -> {
+                    return (entity != null && entity.isUsingItem() && entity.getUseItem() == stack) ? 1.0F : 0.0F;
+                });
         }
 
         @SubscribeEvent
@@ -111,6 +122,7 @@ public class ExplorersofEther
         @SubscribeEvent
         public static void registerParticleFactories(RegisterParticleProvidersEvent event) {
             event.registerSpriteSet(ModParticles.BLOOD_PARTICLES.get(), BloodParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.CRIT_SKULL.get(), CritSkullParticle.Provider::new);
         }
     }
 }

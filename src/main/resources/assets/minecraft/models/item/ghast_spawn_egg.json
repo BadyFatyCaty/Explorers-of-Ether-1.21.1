@@ -1,0 +1,66 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/ghast_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "ghast_spawn_egg_0",
+			"from": [1, 5, 7.5],
+			"to": [15, 15, 8.5],
+			"faces": {
+				"north": {"uv": [15, 1, 1, 11], "texture": "#0"},
+				"east": {"uv": [14, 1, 15, 11], "texture": "#0"},
+				"south": {"uv": [1, 1, 15, 11], "texture": "#0"},
+				"west": {"uv": [1, 1, 2, 11], "texture": "#0"},
+				"up": {"uv": [1, 1, 15, 2], "texture": "#0"},
+				"down": {"uv": [1, 10, 15, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ghast_spawn_egg_1",
+			"from": [2, 1, 7.5],
+			"to": [14, 5, 8.5],
+			"faces": {
+				"north": {"uv": [14, 11, 2, 15], "texture": "#0"},
+				"east": {"uv": [13, 11, 14, 15], "texture": "#0"},
+				"south": {"uv": [2, 11, 14, 15], "texture": "#0"},
+				"west": {"uv": [2, 11, 3, 15], "texture": "#0"},
+				"down": {"uv": [2, 14, 14, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ghast_spawn_egg_2",
+			"from": [5, 0, 7.5],
+			"to": [8, 1, 8.5],
+			"faces": {
+				"north": {"uv": [8, 15, 5, 16], "texture": "#0"},
+				"east": {"uv": [7, 15, 8, 16], "texture": "#0"},
+				"south": {"uv": [5, 15, 8, 16], "texture": "#0"},
+				"west": {"uv": [5, 15, 6, 16], "texture": "#0"},
+				"down": {"uv": [5, 15, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "ghast_spawn_egg_3",
+			"from": [11, 0, 7.5],
+			"to": [14, 1, 8.5],
+			"faces": {
+				"north": {"uv": [14, 15, 11, 16], "texture": "#0"},
+				"east": {"uv": [13, 15, 14, 16], "texture": "#0"},
+				"south": {"uv": [11, 15, 14, 16], "texture": "#0"},
+				"west": {"uv": [11, 15, 12, 16], "texture": "#0"},
+				"down": {"uv": [11, 15, 14, 16], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "ghast_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
+}

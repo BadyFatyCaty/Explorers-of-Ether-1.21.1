@@ -1,0 +1,78 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/polar_bear_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "polar_bear_spawn_egg_0",
+			"from": [2, 12, 7.5],
+			"to": [4, 13, 8.5],
+			"faces": {
+				"north": {"uv": [4, 3, 2, 4], "texture": "#0"},
+				"east": {"uv": [3, 3, 4, 4], "texture": "#0"},
+				"south": {"uv": [2, 3, 4, 4], "texture": "#0"},
+				"west": {"uv": [2, 3, 3, 4], "texture": "#0"},
+				"up": {"uv": [2, 3, 4, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "polar_bear_spawn_egg_1",
+			"from": [6, 12, 7.5],
+			"to": [8, 13, 8.5],
+			"faces": {
+				"north": {"uv": [8, 3, 6, 4], "texture": "#0"},
+				"east": {"uv": [7, 3, 8, 4], "texture": "#0"},
+				"south": {"uv": [6, 3, 8, 4], "texture": "#0"},
+				"west": {"uv": [6, 3, 7, 4], "texture": "#0"},
+				"up": {"uv": [6, 3, 8, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "polar_bear_spawn_egg_2",
+			"from": [2, 5, 7.5],
+			"to": [15, 12, 8.5],
+			"faces": {
+				"north": {"uv": [15, 4, 2, 11], "texture": "#0"},
+				"east": {"uv": [14, 4, 15, 11], "texture": "#0"},
+				"south": {"uv": [2, 4, 15, 11], "texture": "#0"},
+				"west": {"uv": [2, 4, 3, 11], "texture": "#0"},
+				"up": {"uv": [2, 4, 15, 5], "texture": "#0"},
+				"down": {"uv": [2, 10, 15, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "polar_bear_spawn_egg_3",
+			"from": [1, 5, 7.5],
+			"to": [2, 11, 8.5],
+			"faces": {
+				"north": {"uv": [2, 5, 1, 11], "texture": "#0"},
+				"south": {"uv": [1, 5, 2, 11], "texture": "#0"},
+				"west": {"uv": [1, 5, 2, 11], "texture": "#0"},
+				"up": {"uv": [1, 5, 2, 6], "texture": "#0"},
+				"down": {"uv": [1, 10, 2, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "polar_bear_spawn_egg_4",
+			"from": [3, 1, 7.5],
+			"to": [15, 5, 8.5],
+			"faces": {
+				"north": {"uv": [15, 11, 3, 15], "texture": "#0"},
+				"east": {"uv": [14, 11, 15, 15], "texture": "#0"},
+				"south": {"uv": [3, 11, 15, 15], "texture": "#0"},
+				"west": {"uv": [3, 11, 4, 15], "texture": "#0"},
+				"down": {"uv": [3, 14, 15, 15], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "polar_bear_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4]
+		}
+	]
+}

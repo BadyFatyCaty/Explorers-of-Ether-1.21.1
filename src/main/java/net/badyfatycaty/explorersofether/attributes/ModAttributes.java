@@ -32,7 +32,7 @@ import net.badyfatycaty.explorersofether.attributes.stamina.Stamina;
 import net.badyfatycaty.explorersofether.attributes.stamina.StaminaRegen;
 import net.neoforged.bus.api.IEventBus;
 
-public class AttributesMain {
+public class ModAttributes {
     public static void registerAllAttributes(IEventBus modEventBus) {
         CritDamage.REGISTRY.register(modEventBus);
         CritRate.REGISTRY.register(modEventBus);

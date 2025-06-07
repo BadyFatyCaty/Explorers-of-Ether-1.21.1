@@ -1,0 +1,125 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/dolphin_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "dolphin_spawn_egg_0",
+			"from": [8, 5, 7.5],
+			"to": [11, 14, 8.5],
+			"faces": {
+				"north": {"uv": [11, 2, 8, 11], "texture": "#0"},
+				"east": {"uv": [10, 2, 11, 11], "texture": "#0"},
+				"south": {"uv": [8, 2, 11, 11], "texture": "#0"},
+				"west": {"uv": [8, 2, 9, 11], "texture": "#0"},
+				"up": {"uv": [8, 2, 11, 3], "texture": "#0"},
+				"down": {"uv": [8, 10, 11, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_1",
+			"from": [11, 12, 7.5],
+			"to": [12, 14, 8.5],
+			"faces": {
+				"north": {"uv": [12, 2, 11, 4], "texture": "#0"},
+				"east": {"uv": [11, 2, 12, 4], "texture": "#0"},
+				"south": {"uv": [11, 2, 12, 4], "texture": "#0"},
+				"up": {"uv": [11, 2, 12, 3], "texture": "#0"},
+				"down": {"uv": [11, 3, 12, 4], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_2",
+			"from": [7, 6, 7.5],
+			"to": [8, 13, 8.5],
+			"faces": {
+				"north": {"uv": [8, 3, 7, 10], "texture": "#0"},
+				"south": {"uv": [7, 3, 8, 10], "texture": "#0"},
+				"west": {"uv": [7, 3, 8, 10], "texture": "#0"},
+				"up": {"uv": [7, 3, 8, 4], "texture": "#0"},
+				"down": {"uv": [7, 9, 8, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_3",
+			"from": [2, 6, 7.5],
+			"to": [7, 12, 8.5],
+			"faces": {
+				"north": {"uv": [7, 4, 2, 10], "texture": "#0"},
+				"south": {"uv": [2, 4, 7, 10], "texture": "#0"},
+				"west": {"uv": [2, 4, 3, 10], "texture": "#0"},
+				"up": {"uv": [2, 4, 7, 5], "texture": "#0"},
+				"down": {"uv": [2, 9, 7, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_4",
+			"from": [11, 3, 7.5],
+			"to": [13, 11, 8.5],
+			"faces": {
+				"north": {"uv": [13, 5, 11, 13], "texture": "#0"},
+				"east": {"uv": [12, 5, 13, 13], "texture": "#0"},
+				"south": {"uv": [11, 5, 13, 13], "texture": "#0"},
+				"up": {"uv": [11, 5, 13, 6], "texture": "#0"},
+				"down": {"uv": [11, 12, 13, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_5",
+			"from": [13, 3, 7.5],
+			"to": [14, 10, 8.5],
+			"faces": {
+				"north": {"uv": [14, 6, 13, 13], "texture": "#0"},
+				"east": {"uv": [13, 6, 14, 13], "texture": "#0"},
+				"south": {"uv": [13, 6, 14, 13], "texture": "#0"},
+				"up": {"uv": [13, 6, 14, 7], "texture": "#0"},
+				"down": {"uv": [13, 12, 14, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_6",
+			"from": [1, 6, 7.5],
+			"to": [2, 8, 8.5],
+			"faces": {
+				"north": {"uv": [2, 8, 1, 10], "texture": "#0"},
+				"south": {"uv": [1, 8, 2, 10], "texture": "#0"},
+				"west": {"uv": [1, 8, 2, 10], "texture": "#0"},
+				"up": {"uv": [1, 8, 2, 9], "texture": "#0"},
+				"down": {"uv": [1, 9, 2, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_7",
+			"from": [14, 3, 7.5],
+			"to": [15, 6, 8.5],
+			"faces": {
+				"north": {"uv": [15, 10, 14, 13], "texture": "#0"},
+				"east": {"uv": [14, 10, 15, 13], "texture": "#0"},
+				"south": {"uv": [14, 10, 15, 13], "texture": "#0"},
+				"up": {"uv": [14, 10, 15, 11], "texture": "#0"},
+				"down": {"uv": [14, 12, 15, 13], "texture": "#0"}
+			}
+		},
+		{
+			"name": "dolphin_spawn_egg_8",
+			"from": [10, 3, 7.5],
+			"to": [11, 5, 8.5],
+			"faces": {
+				"north": {"uv": [11, 11, 10, 13], "texture": "#0"},
+				"south": {"uv": [10, 11, 11, 13], "texture": "#0"},
+				"west": {"uv": [10, 11, 11, 13], "texture": "#0"},
+				"down": {"uv": [10, 12, 11, 13], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "dolphin_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	]
+}

@@ -31,7 +31,7 @@ public class ClaymoreItem extends TieredItem {
     public static final ResourceLocation REACH_MODIFIER_ID = ResourceLocation.withDefaultNamespace("base_attack_speed");
 
     public ClaymoreItem(Tier tier, Item.Properties properties) {
-        super(tier, properties.component(DataComponents.TOOL, createToolProperties()).component(DataComponents.ATTRIBUTE_MODIFIERS, createAttributes(tier, 3, -3.1F)));
+        super(tier, properties.component(DataComponents.TOOL, createToolProperties()));
     }
 
     public ClaymoreItem(Tier p_tier, Item.Properties p_properties, Tool toolComponentData) {

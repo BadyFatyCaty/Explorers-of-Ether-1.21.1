@@ -11,12 +11,12 @@
 		},
 
 		"firstperson_righthand": {
-			"rotation": [0, -90, 0],
-			"translation": [0, -1, -1]
+			"rotation": [0, -90, 10],
+			"translation": [0, -6, -1]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 90, 0],
-			"translation": [0, -1, -1]
+			"rotation": [0, 90, -10],
+			"translation": [0, -6, -1]
 		}
 	}
 }

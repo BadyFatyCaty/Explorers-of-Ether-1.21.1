@@ -1,0 +1,87 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/fake_generated",
+	"textures": {
+		"0": "item/vindicator_spawn_egg"
+	},
+	"elements": [
+		{
+			"name": "vindicator_spawn_egg_0",
+			"from": [4, 5, 7.5],
+			"to": [12, 16, 8.5],
+			"faces": {
+				"north": {"uv": [12, 0, 4, 11], "texture": "#0"},
+				"east": {"uv": [11, 0, 12, 11], "texture": "#0"},
+				"south": {"uv": [4, 0, 12, 11], "texture": "#0"},
+				"west": {"uv": [4, 0, 5, 11], "texture": "#0"},
+				"up": {"uv": [4, 0, 12, 1], "texture": "#0"},
+				"down": {"uv": [4, 10, 12, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vindicator_spawn_egg_1",
+			"from": [0, 9, 7.5],
+			"to": [4, 14, 8.5],
+			"faces": {
+				"north": {"uv": [4, 2, 0, 7], "texture": "#0"},
+				"south": {"uv": [0, 2, 4, 7], "texture": "#0"},
+				"west": {"uv": [0, 2, 1, 7], "texture": "#0"},
+				"up": {"uv": [0, 2, 4, 3], "texture": "#0"},
+				"down": {"uv": [0, 6, 4, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vindicator_spawn_egg_2",
+			"from": [2, 6, 7.5],
+			"to": [4, 9, 8.5],
+			"faces": {
+				"north": {"uv": [4, 7, 2, 10], "texture": "#0"},
+				"south": {"uv": [2, 7, 4, 10], "texture": "#0"},
+				"west": {"uv": [2, 7, 3, 10], "texture": "#0"},
+				"down": {"uv": [2, 9, 4, 10], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vindicator_spawn_egg_3",
+			"from": [12, 4, 7.5],
+			"to": [13, 9, 8.5],
+			"faces": {
+				"north": {"uv": [13, 7, 12, 12], "texture": "#0"},
+				"east": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"south": {"uv": [12, 7, 13, 12], "texture": "#0"},
+				"up": {"uv": [12, 7, 13, 8], "texture": "#0"},
+				"down": {"uv": [12, 11, 13, 12], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vindicator_spawn_egg_4",
+			"from": [5, 1, 7.5],
+			"to": [11, 5, 8.5],
+			"faces": {
+				"north": {"uv": [11, 11, 5, 15], "texture": "#0"},
+				"east": {"uv": [10, 11, 11, 15], "texture": "#0"},
+				"south": {"uv": [5, 11, 11, 15], "texture": "#0"},
+				"west": {"uv": [5, 11, 6, 15], "texture": "#0"},
+				"down": {"uv": [5, 14, 11, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "vindicator_spawn_egg_5",
+			"from": [11, 4, 7.5],
+			"to": [12, 5, 8.5],
+			"faces": {
+				"north": {"uv": [12, 11, 11, 12], "texture": "#0"},
+				"south": {"uv": [11, 11, 12, 12], "texture": "#0"},
+				"down": {"uv": [11, 11, 12, 12], "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "vindicator_spawn_egg",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

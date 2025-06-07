@@ -1,5 +1,6 @@
 {
   "values": [
-    "minecraft:crossbow"
+    "minecraft:crossbow",
+    "#explorers_of_ether:crossbows"
   ]
 }

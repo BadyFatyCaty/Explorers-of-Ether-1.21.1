@@ -1,0 +1,6 @@
+{
+	"parent": "item/guardian_spawn_egg",
+	"textures": {
+		"0": "item/elder_guardian_spawn_egg"
+	}
+}
